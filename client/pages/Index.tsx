@@ -236,9 +236,9 @@ export default function Index() {
                 </Button>
               </div>
               <div>
-                <img 
-                  src="https://cdn.builder.io/api/v1/image/assets%2F701c6aa649cc4d0db8f75aa92ca32a88%2Fb3f9b314568c4f3b9d109eefb269f069?format=webp&width=800" 
-                  alt="XBody EMS Equipment" 
+                <img
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754694109/54-accessories_1_unr2fy.png"
+                  alt="XBody EMS Equipment"
                   className="w-full h-auto rounded-2xl"
                 />
               </div>
