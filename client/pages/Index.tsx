@@ -101,7 +101,6 @@ export default function Index() {
               autoPlay
               muted
               loop
-              controls
               className="max-w-full w-full max-w-5xl h-auto rounded-3xl shadow-2xl"
             >
               Your browser does not support the video tag.
