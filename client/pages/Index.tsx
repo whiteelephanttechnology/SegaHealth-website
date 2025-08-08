@@ -406,11 +406,10 @@ export default function Index() {
           <Accordion type="single" collapsible className="space-y-6">
             <AccordionItem value="item-1" className="border-b border-gray-700 pb-4">
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                How do I get started with WB-EMS certification?
+                How do I get started with WBEMS certification?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                Getting started is easy! Simply enroll in our comprehensive 80-hour training program, complete the coursework,
-                pass the online examination, and receive your certification. Our support team will guide you through every step.
+                To begin your journey, simply enroll in our <strong>80-hour training course</strong>, available in both <strong>live</strong> and <strong>virtual formats</strong>. After completing the course, you'll take an online exam, and once passed, you'll receive your official certification.
               </AccordionContent>
             </AccordionItem>
 
@@ -419,18 +418,16 @@ export default function Index() {
                 What equipment will I need to start my WBEMS business?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                We offer complete equipment packages including XBody GO, XBody PRO, and ACTIWAVE systems. Our team will help you
-                choose the right equipment based on your business goals and budget. Special student pricing is available for our graduates.
+                You will need an <strong>X Body EMS machine</strong>, which is used for training and rehabilitation. We offer exclusive student discounts and financing options for purchasing the equipment.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border-b border-gray-700 pb-4">
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                Can I purchase the EMS equipment after I complete my Certification?
+                Can I purchase the EMS equipment after I complete my certification?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                Yes! We offer special pricing on professional EMS equipment for our certified graduates. Choose from various models
-                including XBody GO, XBody PRO, and ACTIWAVE systems with flexible financing options available.
+                Yes! As a <strong>SegaHealth student</strong>, you can purchase the <strong>X Body EMS equipment</strong> at a discounted price, with <strong>financing options</strong> available. You can own the equipment and start your own fitness business!
               </AccordionContent>
             </AccordionItem>
 
@@ -439,16 +436,76 @@ export default function Index() {
                 How much does the EMS equipment cost?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                Equipment costs vary depending on the model and features you choose. Our XBody GO starts at competitive rates,
-                while our professional XBody PRO and ACTIWAVE systems offer advanced features for larger facilities. Contact us for detailed pricing and financing options.
+                The cost varies based on the type and package you choose. Contact us for more details on <strong>pricing</strong> and <strong>special student discounts</strong>.
               </AccordionContent>
             </AccordionItem>
+
+            {showAllFAQs && (
+              <>
+                <AccordionItem value="item-5" className="border-b border-gray-700 pb-4">
+                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                    Do you offer financing for the equipment?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                    Yes, we offer <strong>easy financing options</strong> for students to help you invest in the equipment with manageable payment plans. Learn more about financing when you request a demo.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-6" className="border-b border-gray-700 pb-4">
+                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                    How long will it take to become certified?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                    The <strong>80-hour training course</strong> can be completed at your own pace, either through <strong>live</strong> sessions or <strong>virtual learning</strong>. Afterward, you'll take the <strong>online exam</strong>, and once passed, you'll receive your certification immediately.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-7" className="border-b border-gray-700 pb-4">
+                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                    Can I run a WBEMS business from home?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                    Yes! You can set up your WBEMS business in your <strong>home gym</strong> or any <strong>private space</strong>. With the right equipment and knowledge, you can train clients from the comfort of your own home.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-8" className="border-b border-gray-700 pb-4">
+                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                    What makes X Body EMS equipment different from other brands?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                    <strong>X Body</strong> offers <strong>industry-leading technology</strong> with unmatched performance in <strong>electrical muscle stimulation (EMS)</strong>. The equipment is trusted by professionals worldwide for its quality and results.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-9" className="border-b border-gray-700 pb-4">
+                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                    How can I promote my WBEMS business once I'm certified?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                    Once certified, you'll have access to marketing resources to help promote your services. You can use our platform to find <strong>clients</strong> or set up your own <strong>website</strong> for business promotion.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-10" className="border-b border-gray-700 pb-4">
+                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                    Can I provide remote support or virtual training for my clients?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                    While <strong>EMS training</strong> requires the client to be physically present for the session, you can provide <strong>remote support</strong>, <strong>consultations</strong>, and <strong>progress tracking</strong> virtually. This allows you to stay connected with your clients even when they are not physically in the same location.
+                  </AccordionContent>
+                </AccordionItem>
+              </>
+            )}
           </Accordion>
 
           <div className="text-center mt-12">
-            <a href="#" className="text-orange-500 hover:text-orange-400 transition-colors font-medium text-lg">
-              See more FAQs
-            </a>
+            <button
+              onClick={() => setShowAllFAQs(!showAllFAQs)}
+              className="text-orange-500 hover:text-orange-400 transition-colors font-medium text-lg"
+            >
+              {showAllFAQs ? 'Show fewer FAQs' : 'See more FAQs'}
+            </button>
           </div>
         </div>
       </section>
