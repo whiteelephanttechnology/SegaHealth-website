@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Index() {
   const [showAllFAQs, setShowAllFAQs] = useState(false);
