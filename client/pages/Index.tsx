@@ -127,42 +127,39 @@ export default function Index() {
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div className="flex items-start space-x-4">
-                <div className="bg-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl flex-shrink-0">
+            <div className="space-y-6">
+              <div className="flex items-center gap-4">
+                <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">
                   1
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Get Complete 80 Hours of Training</h3>
-                  <p className="text-gray-300">Complete comprehensive training covering all aspects of WB-EMS technology and methodology.</p>
+                <div className="bg-white text-black px-6 py-3 rounded-full font-semibold text-lg">
+                  Get Complete 80 Hours of Training!
                 </div>
               </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="bg-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl flex-shrink-0">
+
+              <div className="flex items-center gap-4">
+                <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">
                   2
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Take the Online Exam</h3>
-                  <p className="text-gray-300">Pass our comprehensive online examination to demonstrate your knowledge and skills.</p>
+                <div className="bg-white text-black px-6 py-3 rounded-full font-semibold text-lg">
+                  Take the Online Exam
                 </div>
               </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="bg-orange-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl flex-shrink-0">
+
+              <div className="flex items-center gap-4">
+                <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">
                   3
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Get Certified</h3>
-                  <p className="text-gray-300">Receive your official WB-EMS certification and start your professional journey.</p>
+                <div className="bg-white text-black px-6 py-3 rounded-full font-semibold text-lg">
+                  Get Certified!
                 </div>
               </div>
-              
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full mt-8">
-                Start Your Certification Journey
+
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg rounded-full mt-8 shadow-lg">
+                Start Your Certification Today
               </Button>
             </div>
-            
+
             <div>
               <video
                 src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1754695160/WhatsApp_Video_2025-08-08_at_03.20.32_fcfd8e75_tuvw0m.mp4"
@@ -170,11 +167,10 @@ export default function Index() {
                 muted
                 loop
                 controls
-                className="w-full h-auto rounded-2xl mb-4"
+                className="w-full h-auto rounded-2xl"
               >
                 Your browser does not support the video tag.
               </video>
-              <p className="text-center text-lg font-medium text-white">Take the Online Exam</p>
             </div>
           </div>
         </div>
