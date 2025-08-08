@@ -95,11 +95,16 @@ export default function Index() {
           </div>
           
           <div className="flex justify-center mb-12">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/7aa975340aaa281db095b12c53eb93ab4620df31?width=2164" 
-              alt="EMS Training Session" 
+            <video
+              src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1754695934/WhatsApp_Video_2025-08-08_at_03.20.45_3b0c391b_yvm3v3.mp4"
+              autoPlay
+              muted
+              loop
+              controls
               className="max-w-full w-full max-w-5xl h-auto rounded-3xl shadow-2xl"
-            />
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
           
           <div className="text-center">
