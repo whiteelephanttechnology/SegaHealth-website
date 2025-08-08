@@ -235,11 +235,11 @@ export default function Index() {
                   Learn More About Equipment
                 </Button>
               </div>
-              <div>
+              <div className="flex justify-center">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754694109/54-accessories_1_unr2fy.png"
                   alt="XBody EMS Equipment"
-                  className="w-full h-auto rounded-2xl"
+                  className="w-80 h-auto rounded-2xl"
                 />
               </div>
             </div>
