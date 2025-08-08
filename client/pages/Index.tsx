@@ -64,10 +64,10 @@ export default function Index() {
               Whole body<br />
               <span className="text-orange-500">Electric Muscle Stimulation</span>
             </h1>
-            <p className="text-xl lg:text-2xl text-gray-300 mb-4">
+            <p className="text-4xl lg:text-6xl font-bold text-gray-300 mb-4">
               Certified Trainer
             </p>
-            <p className="text-lg text-gray-400 mb-6 max-w-lg">
+            <p className="text-4xl lg:text-6xl font-bold text-gray-400 mb-6 max-w-lg">
               Never been Easier
             </p>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
