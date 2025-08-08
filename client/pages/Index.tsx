@@ -5,6 +5,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { useState } from "react";
 
 export default function Index() {
+  const [showAllFAQs, setShowAllFAQs] = useState(false);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
