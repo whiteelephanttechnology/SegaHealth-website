@@ -389,56 +389,64 @@ export default function Index() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8">
+            <h2 className="text-4xl lg:text-5xl font-bold mb-4">
               Commonly Asked Questions
             </h2>
+            <p className="text-orange-500 text-lg font-medium">
+              I am here to help!
+            </p>
           </div>
-          
-          <Accordion type="single" collapsible className="space-y-4">
-            <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left font-semibold">
-                How do I get started with the EMS certification?
+
+          <Accordion type="single" collapsible className="space-y-6">
+            <AccordionItem value="item-1" className="border-b border-gray-700 pb-4">
+              <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                How do I get started with WB-EMS certification?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-600">
-                Getting started is easy! Simply enroll in our comprehensive 80-hour training program, complete the coursework, 
+              <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                Getting started is easy! Simply enroll in our comprehensive 80-hour training program, complete the coursework,
                 pass the online examination, and receive your certification. Our support team will guide you through every step.
               </AccordionContent>
             </AccordionItem>
-            
-            <AccordionItem value="item-2" className="border border-gray-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left font-semibold">
-                What experience do I need to start my WB-EMS business?
+
+            <AccordionItem value="item-2" className="border-b border-gray-700 pb-4">
+              <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                What equipment will I need to start my WBEMS business?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-600">
-                While prior fitness experience is helpful, it's not required. Our comprehensive training program covers everything 
-                you need to know to start your WB-EMS business, from basic physiology to advanced training techniques and business operations.
+              <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                We offer complete equipment packages including XBody GO, XBody PRO, and ACTIWAVE systems. Our team will help you
+                choose the right equipment based on your business goals and budget. Special student pricing is available for our graduates.
               </AccordionContent>
             </AccordionItem>
-            
-            <AccordionItem value="item-3" className="border border-gray-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left font-semibold">
-                Can I purchase the EMS equipment after I complete the Certification?
+
+            <AccordionItem value="item-3" className="border-b border-gray-700 pb-4">
+              <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                Can I purchase the EMS equipment after I complete my Certification?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-600">
-                Yes! We offer special pricing on professional EMS equipment for our certified graduates. Choose from various models 
+              <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                Yes! We offer special pricing on professional EMS equipment for our certified graduates. Choose from various models
                 including XBody GO, XBody PRO, and ACTIWAVE systems with flexible financing options available.
               </AccordionContent>
             </AccordionItem>
-            
-            <AccordionItem value="item-4" className="border border-gray-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left font-semibold">
-                How does the EMS equipment work?
+
+            <AccordionItem value="item-4" className="border-b border-gray-700 pb-4">
+              <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                How much does the EMS equipment cost?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-600">
-                EMS (Electric Muscle Stimulation) equipment uses low-frequency electrical impulses to stimulate muscle contractions. 
-                This technology enhances traditional workouts by activating up to 90% of muscle fibers simultaneously, leading to more 
-                efficient and effective training sessions.
+              <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                Equipment costs vary depending on the model and features you choose. Our XBody GO starts at competitive rates,
+                while our professional XBody PRO and ACTIWAVE systems offer advanced features for larger facilities. Contact us for detailed pricing and financing options.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
+
+          <div className="text-center mt-12">
+            <a href="#" className="text-orange-500 hover:text-orange-400 transition-colors font-medium text-lg">
+              See more FAQs
+            </a>
+          </div>
         </div>
       </section>
 
