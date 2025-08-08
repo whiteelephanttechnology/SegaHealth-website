@@ -33,11 +33,25 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative bg-black text-white overflow-hidden min-h-[600px] lg:min-h-[800px]">
         <div className="absolute inset-0">
-          <img 
-            src="https://api.builder.io/api/v1/image/assets/TEMP/72e3fd60df8f108b7c91ad92f3df50bff6883039?width=3456" 
-            alt="EMS Training Background" 
-            className="w-full h-full object-cover opacity-80"
+          <iframe
+            src="https://www.youtube.com/embed/XJR5etgd4lA?autoplay=1&mute=1&loop=1&playlist=XJR5etgd4lA&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=0&disablekb=1"
+            className="w-full h-full object-cover"
+            style={{
+              position: 'absolute',
+              top: '50%',
+              left: '50%',
+              width: '100vw',
+              height: '100vh',
+              transform: 'translate(-50%, -50%)',
+              minWidth: '100%',
+              minHeight: '100%',
+              pointerEvents: 'none'
+            }}
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
           />
+          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-2xl">
