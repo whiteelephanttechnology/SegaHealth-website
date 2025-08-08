@@ -336,48 +336,53 @@ export default function Index() {
       </section>
 
       {/* Meet the Team */}
-      <section className="py-20 bg-black text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold mb-8">
-              Meet The Minds Behind SegaHealth
-            </h2>
-          </div>
-          
-          <div className="grid lg:grid-cols-2 gap-12">
-            <Card className="bg-gray-900 border-gray-800 text-white">
-              <CardContent className="p-8">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/111708a03aa370aa27cd2e0f6d996d380f3a8205?width=400" 
-                  alt="Juan Uribe" 
-                  className="w-32 h-32 rounded-full object-cover mb-6"
-                />
-                <h3 className="text-2xl font-bold mb-2">Juan Uribe</h3>
-                <p className="text-orange-500 mb-4">Founder & Lead Instructor</p>
-                <p className="text-gray-300 leading-relaxed">
-                  With over 15 years in the fitness industry, Juan is a pioneer in EMS training methodology. 
-                  He has certified thousands of trainers worldwide and continues to advance the field through 
-                  research and innovation.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-gray-900 border-gray-800 text-white">
-              <CardContent className="p-8">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/111708a03aa370aa27cd2e0f6d996d380f3a8205?width=400" 
-                  alt="Brian Cooper" 
-                  className="w-32 h-32 rounded-full object-cover mb-6"
-                />
-                <h3 className="text-2xl font-bold mb-2">Brian Cooper</h3>
-                <p className="text-orange-500 mb-4">Technical Director & Equipment Specialist</p>
-                <p className="text-gray-300 leading-relaxed">
-                  Brian brings technical expertise in EMS technology and equipment design. His background in 
-                  biomedical engineering ensures our training programs incorporate the latest technological 
-                  advancements in the field.
-                </p>
-              </CardContent>
-            </Card>
+      <section className="py-20 bg-black text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 relative">
+          <div className="grid lg:grid-cols-3 gap-12 items-center">
+            {/* Juan Uribe - Left */}
+            <div className="text-center lg:text-left">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754694302/WhatsApp_Image_2025-08-07_at_23.56.53_7eab214a_fmij3w.svg"
+                alt="Juan Uribe"
+                className="w-full max-w-md mx-auto lg:mx-0 h-auto object-cover rounded-2xl mb-6"
+              />
+              <div className="bg-black bg-opacity-50 p-6 rounded-2xl">
+                <h3 className="text-2xl font-bold mb-2 text-white">Juan Uribe</h3>
+                <p className="text-orange-500 mb-2">Founder - SegaHealth</p>
+                <p className="text-sm text-gray-300">Strategy, Energy and Execution.</p>
+                <p className="text-sm text-gray-400 mt-1">A veteran and builder at heart</p>
+              </div>
+            </div>
+
+            {/* Center Content */}
+            <div className="text-center lg:order-2">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                Meet The Minds<br />
+                Behind<br />
+                <span className="text-orange-500">SegaHealth</span>
+              </h2>
+              <p className="text-gray-300 mb-8 leading-relaxed max-w-md mx-auto">
+                We're not just building a fitness program we're creating a community focused on transformation. With Juan's expertise in coaching and strategy and Brian's technical excellence in EMS technology and execution, we guide you from the inside out and the outside in. Together, we combine science, empathy, and proven methods to help you grow, heal, and perform at your best—physically, mentally, and emotionally. Whether you're overcoming trauma, managing stress, or improving fitness, we're here to help you move forward with strength and resilience.
+              </p>
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full">
+                Get Started Today
+              </Button>
+            </div>
+
+            {/* Brian Cooper - Right */}
+            <div className="text-center lg:text-right lg:order-3">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754694329/WhatsApp_Image_2025-08-07_at_23.56.52_54fb83d7_rex4u8.svg"
+                alt="Brian Cooper"
+                className="w-full max-w-md mx-auto lg:mx-0 h-auto object-cover rounded-2xl mb-6"
+              />
+              <div className="bg-black bg-opacity-50 p-6 rounded-2xl">
+                <h3 className="text-2xl font-bold mb-2 text-white">Brian Cooper</h3>
+                <p className="text-orange-500 mb-2">Lead Educator, Clinical Advisor</p>
+                <p className="text-sm text-gray-300">30+ Years of integrative health leadership</p>
+                <p className="text-sm text-gray-400 mt-1">Turning hope into systems</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
