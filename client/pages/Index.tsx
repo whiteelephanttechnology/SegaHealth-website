@@ -303,7 +303,7 @@ export default function Index() {
               <img
                 src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
                 alt="XBody GO"
-                className="w-full h-64 object-cover"
+                className="w-full h-96 object-cover"
               />
             </div>
 
@@ -311,7 +311,7 @@ export default function Index() {
               <img
                 src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
                 alt="XBody PRO"
-                className="w-full h-64 object-cover"
+                className="w-full h-96 object-cover"
               />
             </div>
 
@@ -319,7 +319,7 @@ export default function Index() {
               <img
                 src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
                 alt="ACTIWAVE"
-                className="w-full h-64 object-cover"
+                className="w-full h-96 object-cover"
               />
             </div>
           </div>
