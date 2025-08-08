@@ -297,49 +297,40 @@ export default function Index() {
               Choose from our range of professional-grade equipment to start your EMS business or enhance your training offerings.
             </p>
           </div>
-          
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <Card className="overflow-hidden border-gray-200 hover:shadow-lg transition-shadow">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/111708a03aa370aa27cd2e0f6d996d380f3a8205?width=400" 
-                alt="XBody GO" 
-                className="w-full h-48 object-cover"
+
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
+                alt="XBody GO"
+                className="w-full h-64 object-cover"
               />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">XBody GO</h3>
-                <p className="text-gray-600">Portable and efficient EMS system perfect for personal training and small studios.</p>
-              </CardContent>
-            </Card>
-            
-            <Card className="overflow-hidden border-gray-200 hover:shadow-lg transition-shadow">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/111708a03aa370aa27cd2e0f6d996d380f3a8205?width=400" 
-                alt="XBody PRO" 
-                className="w-full h-48 object-cover"
+            </div>
+
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
+                alt="XBody PRO"
+                className="w-full h-64 object-cover"
               />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">XBody PRO</h3>
-                <p className="text-gray-600">Professional-grade system with advanced features for commercial fitness facilities.</p>
-              </CardContent>
-            </Card>
-            
-            <Card className="overflow-hidden border-gray-200 hover:shadow-lg transition-shadow">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/111708a03aa370aa27cd2e0f6d996d380f3a8205?width=400" 
-                alt="ACTIWAVE" 
-                className="w-full h-48 object-cover"
+            </div>
+
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
+                alt="ACTIWAVE"
+                className="w-full h-64 object-cover"
               />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">ACTIWAVE</h3>
-                <p className="text-gray-600">Next-generation EMS technology with wireless connectivity and smart features.</p>
-              </CardContent>
-            </Card>
+            </div>
           </div>
-          
+
           <div className="text-center">
-            <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full">
-              View All Equipment Options
+            <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg rounded-full mb-4 shadow-lg hover:shadow-xl transition-all duration-300">
+              Book a Free Demo
             </Button>
+            <p className="text-gray-600 text-lg">
+              See it in action. Ask questions. Find the right fit.
+            </p>
           </div>
         </div>
       </section>
