@@ -441,63 +441,82 @@ export default function Index() {
               </AccordionContent>
             </AccordionItem>
 
-            {showAllFAQs && (
-              <>
-                <AccordionItem value="item-5" className="border-b border-gray-700 pb-4">
-                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                    Do you offer financing for the equipment?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                    Yes, we offer <strong>easy financing options</strong> for students to help you invest in the equipment with manageable payment plans. Learn more about financing when you request a demo.
-                  </AccordionContent>
-                </AccordionItem>
+            <AnimatePresence>
+              {showAllFAQs && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    ease: "easeInOut",
+                    height: { duration: 0.6 }
+                  }}
+                  style={{ overflow: "hidden" }}
+                >
+                  <motion.div
+                    initial={{ y: -20 }}
+                    animate={{ y: 0 }}
+                    transition={{ duration: 0.4, delay: 0.2 }}
+                    className="space-y-6 mt-6"
+                  >
+                    <AccordionItem value="item-5" className="border-b border-gray-700 pb-4">
+                      <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                        Do you offer financing for the equipment?
+                      </AccordionTrigger>
+                      <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                        Yes, we offer <strong>easy financing options</strong> for students to help you invest in the equipment with manageable payment plans. Learn more about financing when you request a demo.
+                      </AccordionContent>
+                    </AccordionItem>
 
-                <AccordionItem value="item-6" className="border-b border-gray-700 pb-4">
-                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                    How long will it take to become certified?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                    The <strong>80-hour training course</strong> can be completed at your own pace, either through <strong>live</strong> sessions or <strong>virtual learning</strong>. Afterward, you'll take the <strong>online exam</strong>, and once passed, you'll receive your certification immediately.
-                  </AccordionContent>
-                </AccordionItem>
+                    <AccordionItem value="item-6" className="border-b border-gray-700 pb-4">
+                      <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                        How long will it take to become certified?
+                      </AccordionTrigger>
+                      <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                        The <strong>80-hour training course</strong> can be completed at your own pace, either through <strong>live</strong> sessions or <strong>virtual learning</strong>. Afterward, you'll take the <strong>online exam</strong>, and once passed, you'll receive your certification immediately.
+                      </AccordionContent>
+                    </AccordionItem>
 
-                <AccordionItem value="item-7" className="border-b border-gray-700 pb-4">
-                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                    Can I run a WBEMS business from home?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                    Yes! You can set up your WBEMS business in your <strong>home gym</strong> or any <strong>private space</strong>. With the right equipment and knowledge, you can train clients from the comfort of your own home.
-                  </AccordionContent>
-                </AccordionItem>
+                    <AccordionItem value="item-7" className="border-b border-gray-700 pb-4">
+                      <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                        Can I run a WBEMS business from home?
+                      </AccordionTrigger>
+                      <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                        Yes! You can set up your WBEMS business in your <strong>home gym</strong> or any <strong>private space</strong>. With the right equipment and knowledge, you can train clients from the comfort of your own home.
+                      </AccordionContent>
+                    </AccordionItem>
 
-                <AccordionItem value="item-8" className="border-b border-gray-700 pb-4">
-                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                    What makes X Body EMS equipment different from other brands?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                    <strong>X Body</strong> offers <strong>industry-leading technology</strong> with unmatched performance in <strong>electrical muscle stimulation (EMS)</strong>. The equipment is trusted by professionals worldwide for its quality and results.
-                  </AccordionContent>
-                </AccordionItem>
+                    <AccordionItem value="item-8" className="border-b border-gray-700 pb-4">
+                      <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                        What makes X Body EMS equipment different from other brands?
+                      </AccordionTrigger>
+                      <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                        <strong>X Body</strong> offers <strong>industry-leading technology</strong> with unmatched performance in <strong>electrical muscle stimulation (EMS)</strong>. The equipment is trusted by professionals worldwide for its quality and results.
+                      </AccordionContent>
+                    </AccordionItem>
 
-                <AccordionItem value="item-9" className="border-b border-gray-700 pb-4">
-                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                    How can I promote my WBEMS business once I'm certified?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                    Once certified, you'll have access to marketing resources to help promote your services. You can use our platform to find <strong>clients</strong> or set up your own <strong>website</strong> for business promotion.
-                  </AccordionContent>
-                </AccordionItem>
+                    <AccordionItem value="item-9" className="border-b border-gray-700 pb-4">
+                      <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                        How can I promote my WBEMS business once I'm certified?
+                      </AccordionTrigger>
+                      <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                        Once certified, you'll have access to marketing resources to help promote your services. You can use our platform to find <strong>clients</strong> or set up your own <strong>website</strong> for business promotion.
+                      </AccordionContent>
+                    </AccordionItem>
 
-                <AccordionItem value="item-10" className="border-b border-gray-700 pb-4">
-                  <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                    Can I provide remote support or virtual training for my clients?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                    While <strong>EMS training</strong> requires the client to be physically present for the session, you can provide <strong>remote support</strong>, <strong>consultations</strong>, and <strong>progress tracking</strong> virtually. This allows you to stay connected with your clients even when they are not physically in the same location.
-                  </AccordionContent>
-                </AccordionItem>
-              </>
-            )}
+                    <AccordionItem value="item-10" className="border-b border-gray-700 pb-4">
+                      <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
+                        Can I provide remote support or virtual training for my clients?
+                      </AccordionTrigger>
+                      <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
+                        While <strong>EMS training</strong> requires the client to be physically present for the session, you can provide <strong>remote support</strong>, <strong>consultations</strong>, and <strong>progress tracking</strong> virtually. This allows you to stay connected with your clients even when they are not physically in the same location.
+                      </AccordionContent>
+                    </AccordionItem>
+                  </motion.div>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </Accordion>
 
           <div className="text-center mt-12">
