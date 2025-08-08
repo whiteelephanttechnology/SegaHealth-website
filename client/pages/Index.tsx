@@ -163,18 +163,18 @@ export default function Index() {
               </Button>
             </div>
             
-            <div className="bg-gray-800 rounded-2xl p-8">
+            <div>
               <video
                 src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1754695160/WhatsApp_Video_2025-08-08_at_03.20.32_fcfd8e75_tuvw0m.mp4"
                 autoPlay
                 muted
                 loop
                 controls
-                className="w-full h-auto rounded-xl mb-4"
+                className="w-full h-auto rounded-2xl mb-4"
               >
                 Your browser does not support the video tag.
               </video>
-              <p className="text-center text-lg font-medium">Take the Online Exam</p>
+              <p className="text-center text-lg font-medium text-white">Take the Online Exam</p>
             </div>
           </div>
         </div>
