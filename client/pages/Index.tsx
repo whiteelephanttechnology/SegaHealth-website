@@ -261,45 +261,45 @@ export default function Index() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <Card className="text-center p-8 border-gray-200 hover:shadow-lg transition-shadow bg-gray-50">
-              <CardContent className="space-y-4 pt-6">
-                <div className="w-20 h-20 mx-auto flex items-center justify-center mb-4">
+            <Card className="text-center p-6 border-none shadow-md hover:shadow-lg transition-shadow bg-gray-300 rounded-2xl h-64 flex flex-col justify-center">
+              <CardContent className="space-y-3 p-4">
+                <div className="w-16 h-16 mx-auto flex items-center justify-center mb-3">
                   <img
                     src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696088/discount_1_qbvvix.svg"
                     alt="Exclusive discount"
-                    className="w-16 h-16"
+                    className="w-12 h-12"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-black">Exclusive discount for students</h3>
-                <p className="text-gray-600">Our certification is recognized worldwide by leading fitness organizations.</p>
+                <h3 className="text-lg font-semibold text-black">Exclusive discounts for students</h3>
+                <p className="text-gray-700 text-sm">Our certification is recognized worldwide by leading fitness organizations.</p>
               </CardContent>
             </Card>
 
-            <Card className="text-center p-8 border-gray-200 hover:shadow-lg transition-shadow bg-gray-50">
-              <CardContent className="space-y-4 pt-6">
-                <div className="w-20 h-20 mx-auto flex items-center justify-center mb-4">
+            <Card className="text-center p-6 border-none shadow-md hover:shadow-lg transition-shadow bg-gray-300 rounded-2xl h-64 flex flex-col justify-center">
+              <CardContent className="space-y-3 p-4">
+                <div className="w-16 h-16 mx-auto flex items-center justify-center mb-3">
                   <img
                     src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696041/money_1_zwrxea.svg"
                     alt="Easy financing"
-                    className="w-16 h-16"
+                    className="w-12 h-12"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-black">Easy financing options</h3>
-                <p className="text-gray-600">Flexible payment plans to make your certification journey affordable.</p>
+                <h3 className="text-lg font-semibold text-black">Easy financing options</h3>
+                <p className="text-gray-700 text-sm">Flexible payment plans to make your certification journey affordable.</p>
               </CardContent>
             </Card>
 
-            <Card className="text-center p-8 border-gray-200 hover:shadow-lg transition-shadow bg-gray-50">
-              <CardContent className="space-y-4 pt-6">
-                <div className="w-20 h-20 mx-auto flex items-center justify-center mb-4">
+            <Card className="text-center p-6 border-none shadow-md hover:shadow-lg transition-shadow bg-gray-300 rounded-2xl h-64 flex flex-col justify-center">
+              <CardContent className="space-y-3 p-4">
+                <div className="w-16 h-16 mx-auto flex items-center justify-center mb-3">
                   <img
                     src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696190/body_1_ytrfvt.svg"
                     alt="Industry-leading EMS technology"
-                    className="w-16 h-16"
+                    className="w-12 h-12"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-black">Industry-leading EMS technology</h3>
-                <p className="text-gray-600">Learn the latest in electric muscle stimulation technology and techniques.</p>
+                <h3 className="text-lg font-semibold text-black">Industry-leading EMS technology</h3>
+                <p className="text-gray-700 text-sm">Learn the latest in electric muscle stimulation technology and techniques.</p>
               </CardContent>
             </Card>
           </div>
