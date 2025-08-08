@@ -15,10 +15,11 @@ export default function Index() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">S</span>
-              </div>
-              <span className="font-bold text-xl">SegaHealth</span>
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696037/WhatsApp_Image_2025-08-04_at_20.42.08_81fe8df0_1_tq2qgj.svg"
+                alt="SegaHealth Logo"
+                className="h-10 w-auto"
+              />
             </div>
             <div className="hidden md:flex space-x-6">
               <a href="#" className="hover:text-orange-500 transition-colors">Home</a>
