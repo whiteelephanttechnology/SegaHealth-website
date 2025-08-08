@@ -61,18 +61,21 @@ export default function Index() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 lg:py-32">
           <div className="max-w-2xl">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
-              Whole body <br />
+              Whole body<br />
               <span className="text-orange-500">Electric Muscle Stimulation</span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-300 mb-4">
               Certified Trainer
             </p>
-            <p className="text-lg text-gray-400 mb-8 max-w-lg">
+            <p className="text-lg text-gray-400 mb-6 max-w-lg">
               Never been Easier
+            </p>
+            <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
+              Unlock your potential and transform lives through our comprehensive training programs. Join a community dedicated to excellence and make a difference in the health sector.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-lg">
-                Start Now
+                Get Started Today
               </Button>
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-3 rounded-full text-lg">
                 Learn More
