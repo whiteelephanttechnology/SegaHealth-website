@@ -299,27 +299,27 @@ export default function Index() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 max-w-sm mx-auto">
               <img
                 src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
                 alt="XBody GO"
-                className="w-full h-96 object-cover"
+                className="w-full h-[500px] object-cover"
               />
             </div>
 
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 max-w-sm mx-auto">
               <img
-                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693907/Group_40_la0qcs.png"
                 alt="XBody PRO"
-                className="w-full h-96 object-cover"
+                className="w-full h-[500px] object-cover"
               />
             </div>
 
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 max-w-sm mx-auto">
               <img
-                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693678/Group_39_ivzc3w.png"
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693957/alexander-jawfox-Kl2t5U6Gkm0-unsplash_rjgq9d.png"
                 alt="ACTIWAVE"
-                className="w-full h-96 object-cover"
+                className="w-full h-[500px] object-cover"
               />
             </div>
           </div>
