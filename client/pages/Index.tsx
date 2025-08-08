@@ -180,11 +180,16 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/111708a03aa370aa27cd2e0f6d996d380f3a8205?width=800" 
-                alt="Sage - EMS Instructor" 
+              <video
+                src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1754693202/WhatsApp_Video_2025-08-08_at_03.20.20_50e0c599_g2awt0.mp4"
+                autoPlay
+                muted
+                loop
+                controls
                 className="w-full h-auto rounded-2xl"
-              />
+              >
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">Meet Sage</h2>
