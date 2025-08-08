@@ -73,12 +73,9 @@ export default function Index() {
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
               Unlock your potential and transform lives through our comprehensive training programs. Join a community dedicated to excellence and make a difference in the health sector.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex justify-start">
               <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-lg">
                 Get Started Today
-              </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-3 rounded-full text-lg">
-                Learn More
               </Button>
             </div>
           </div>
