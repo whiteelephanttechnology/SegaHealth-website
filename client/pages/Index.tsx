@@ -164,11 +164,16 @@ export default function Index() {
             </div>
             
             <div className="bg-gray-800 rounded-2xl p-8">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/111708a03aa370aa27cd2e0f6d996d380f3a8205?width=800" 
-                alt="Take the Online Exam" 
+              <video
+                src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1754695160/WhatsApp_Video_2025-08-08_at_03.20.32_fcfd8e75_tuvw0m.mp4"
+                autoPlay
+                muted
+                loop
+                controls
                 className="w-full h-auto rounded-xl mb-4"
-              />
+              >
+                Your browser does not support the video tag.
+              </video>
               <p className="text-center text-lg font-medium">Take the Online Exam</p>
             </div>
           </div>
