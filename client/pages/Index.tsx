@@ -271,27 +271,51 @@ export default function Index() {
                   Learn More About Equipment
                 </Button>
               </div>
-              <div className="grid grid-cols-2 gap-4 max-w-lg mx-auto">
-                <img
-                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757529/XB_2022-29_pl7nh0.jpg"
-                  alt="XBody EMS Equipment 1"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
-                <img
-                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757508/XB_2022-1_luocdd.jpg"
-                  alt="XBody EMS Equipment 2"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
-                <img
-                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757507/IMG_8742_w8mplk.jpg"
-                  alt="XBody EMS Equipment 3"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
-                <img
-                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757491/IMG_8676_kodeiv.jpg"
-                  alt="XBody EMS Equipment 4"
-                  className="w-full h-auto rounded-2xl shadow-lg"
-                />
+              <div className="relative max-w-2xl mx-auto">
+                <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                  <img
+                    src={equipmentImages[currentImageIndex].src}
+                    alt={equipmentImages[currentImageIndex].alt}
+                    className="w-full h-96 object-cover transition-all duration-300"
+                  />
+                </div>
+
+                {/* Navigation Buttons */}
+                <button
+                  onClick={prevImage}
+                  className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white hover:bg-gray-100 text-black rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-105"
+                  aria-label="Previous image"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+
+                <button
+                  onClick={nextImage}
+                  className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white hover:bg-gray-100 text-black rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-105"
+                  aria-label="Next image"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+
+                {/* Image Indicators */}
+                <div className="flex justify-center mt-4 space-x-2">
+                  {equipmentImages.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentImageIndex(index)}
+                      className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                        index === currentImageIndex
+                          ? 'bg-orange-500'
+                          : 'bg-gray-300 hover:bg-gray-400'
+                      }`}
+                      aria-label={`View image ${index + 1}`}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           </div>
