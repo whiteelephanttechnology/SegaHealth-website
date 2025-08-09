@@ -330,7 +330,7 @@ export default function Index() {
 
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 max-w-sm mx-auto">
               <img
-                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754693957/alexander-jawfox-Kl2t5U6Gkm0-unsplash_rjgq9d.png"
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757036/newave_yprkng.png"
                 alt="ACTIWAVE"
                 className="w-full h-[500px] object-cover"
               />
