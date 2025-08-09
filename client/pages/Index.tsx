@@ -243,11 +243,26 @@ export default function Index() {
                   Learn More About Equipment
                 </Button>
               </div>
-              <div className="flex justify-center">
+              <div className="grid grid-cols-2 gap-4 max-w-lg mx-auto">
                 <img
-                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754694109/54-accessories_1_unr2fy.png"
-                  alt="XBody EMS Equipment"
-                  className="w-80 h-auto rounded-2xl"
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757529/XB_2022-29_pl7nh0.jpg"
+                  alt="XBody EMS Equipment 1"
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
+                <img
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757508/XB_2022-1_luocdd.jpg"
+                  alt="XBody EMS Equipment 2"
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
+                <img
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757507/IMG_8742_w8mplk.jpg"
+                  alt="XBody EMS Equipment 3"
+                  className="w-full h-auto rounded-2xl shadow-lg"
+                />
+                <img
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757491/IMG_8676_kodeiv.jpg"
+                  alt="XBody EMS Equipment 4"
+                  className="w-full h-auto rounded-2xl shadow-lg"
                 />
               </div>
             </div>
