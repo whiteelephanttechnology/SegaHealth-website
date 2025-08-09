@@ -7,6 +7,34 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Index() {
   const [showAllFAQs, setShowAllFAQs] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const equipmentImages = [
+    {
+      src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757529/XB_2022-29_pl7nh0.jpg",
+      alt: "XBody EMS Equipment 1"
+    },
+    {
+      src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757508/XB_2022-1_luocdd.jpg",
+      alt: "XBody EMS Equipment 2"
+    },
+    {
+      src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757507/IMG_8742_w8mplk.jpg",
+      alt: "XBody EMS Equipment 3"
+    },
+    {
+      src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757491/IMG_8676_kodeiv.jpg",
+      alt: "XBody EMS Equipment 4"
+    }
+  ];
+
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % equipmentImages.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prev) => (prev - 1 + equipmentImages.length) % equipmentImages.length);
+  };
 
   return (
     <div className="min-h-screen bg-white">
