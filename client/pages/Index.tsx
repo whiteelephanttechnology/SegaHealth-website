@@ -374,7 +374,7 @@ export default function Index() {
               Explore Your WB-EMS Equipment Options
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose from our range of professional-grade equipment to start your EMS business or enhance your training offerings.
+              Choose from our range of <strong>FDA approved</strong> professional-grade equipment to start your EMS business or enhance your training offerings.
             </p>
           </div>
 
