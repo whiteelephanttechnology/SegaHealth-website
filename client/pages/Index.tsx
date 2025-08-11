@@ -281,13 +281,26 @@ export default function Index() {
               </div>
               <div className="relative max-w-2xl mx-auto">
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-                  <img
-                    key={currentImageIndex}
-                    src={equipmentImages[currentImageIndex].src}
-                    alt={equipmentImages[currentImageIndex].alt}
-                    className="w-full h-96 object-cover transition-all duration-300"
-                    loading="eager"
-                  />
+                  <motion.div
+                    className="flex"
+                    animate={{ x: -currentImageIndex * 100 + "%" }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 300,
+                      damping: 30,
+                      duration: 0.5
+                    }}
+                  >
+                    {equipmentImages.map((image, index) => (
+                      <img
+                        key={index}
+                        src={image.src}
+                        alt={image.alt}
+                        className="w-full h-96 object-cover flex-shrink-0"
+                        loading="eager"
+                      />
+                    ))}
+                  </motion.div>
                 </div>
 
                 {/* Navigation Buttons */}
