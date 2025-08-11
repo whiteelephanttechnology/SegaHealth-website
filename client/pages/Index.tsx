@@ -57,19 +57,19 @@ export default function Index() {
               />
             </div>
             <div className="hidden md:flex space-x-6">
-              <a href="#" className="hover:text-orange-500 transition-colors">
+              <a href="#home" className="hover:text-orange-500 transition-colors">
                 Home
               </a>
-              <a href="#" className="hover:text-orange-500 transition-colors">
+              <a href="#about" className="hover:text-orange-500 transition-colors">
                 About
               </a>
-              <a href="#" className="hover:text-orange-500 transition-colors">
+              <a href="#courses" className="hover:text-orange-500 transition-colors">
                 Courses
               </a>
-              <a href="#" className="hover:text-orange-500 transition-colors">
+              <a href="#equipment" className="hover:text-orange-500 transition-colors">
                 Equipment
               </a>
-              <a href="#" className="hover:text-orange-500 transition-colors">
+              <a href="#contact" className="hover:text-orange-500 transition-colors">
                 Contact
               </a>
             </div>
