@@ -138,7 +138,9 @@ export default function Index() {
           </div>
           
           <div className="text-center">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+            <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 relative overflow-visible" style={{
+              boxShadow: '15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)'
+            }}>
               Get Certified Today
             </Button>
           </div>
