@@ -102,7 +102,9 @@ export default function Index() {
               Unlock your potential and transform lives through our comprehensive training programs. Join a community dedicated to excellence and make a difference in the health sector.
             </p>
             <div className="flex justify-start">
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full text-lg">
+              <Button className="bg-white hover:bg-gray-50 text-black px-8 py-3 rounded-full text-lg relative overflow-visible" style={{
+                boxShadow: '15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)'
+              }}>
                 Get Started Today
               </Button>
             </div>
