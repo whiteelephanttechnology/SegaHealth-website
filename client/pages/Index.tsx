@@ -216,8 +216,8 @@ export default function Index() {
             </h2>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-center ml-6">
+            <div className="space-y-6 ml-8">
               <div className="flex items-center gap-4">
                 <div className="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">
                   1
