@@ -815,7 +815,7 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black text-white py-16">
+      <footer id="contact" className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-4 gap-8 mb-12">
             <div>
