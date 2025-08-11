@@ -238,9 +238,8 @@ export default function Index() {
                 As your instructor, Sage will guide you through every step of your certification journey, 
                 ensuring you have the knowledge and confidence to excel in your EMS career.
               </p>
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full relative overflow-visible shadow-lg" style={{
-                boxShadow: '0 0 20px rgba(249, 115, 22, 0.5), 0 0 40px rgba(249, 115, 22, 0.3), 0 0 60px rgba(249, 115, 22, 0.1)',
-                filter: 'drop-shadow(0 0 10px rgba(249, 115, 22, 0.8))'
+              <Button className="bg-white hover:bg-gray-50 text-black px-8 py-3 rounded-full relative overflow-visible" style={{
+                boxShadow: '-15px 0 30px rgba(249, 115, 22, 0.6), -30px 0 60px rgba(249, 115, 22, 0.4), -45px 0 90px rgba(249, 115, 22, 0.2)'
               }}>
                 Learn More
               </Button>
