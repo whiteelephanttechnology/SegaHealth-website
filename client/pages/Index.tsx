@@ -81,7 +81,7 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative bg-black text-white overflow-hidden min-h-[600px] lg:min-h-[800px]">
+      <section id="home" className="relative bg-black text-white overflow-hidden min-h-[600px] lg:min-h-[800px]">
         <div className="absolute inset-0">
           <iframe
             src="https://www.youtube.com/embed/XJR5etgd4lA?autoplay=1&mute=1&loop=1&playlist=XJR5etgd4lA&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=0&disablekb=1"
