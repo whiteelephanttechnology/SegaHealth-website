@@ -452,7 +452,9 @@ export default function Index() {
               <p className="text-gray-300 mb-8 leading-relaxed max-w-md mx-auto">
                 We're not just building a fitness program we're creating a community focused on transformation. With Juan's expertise in coaching and strategy and Brian's technical excellence in EMS technology and execution, we guide you from the inside out and the outside in. Together, we combine science, empathy, and proven methods to help you grow, heal, and perform at your best—physically, mentally, and emotionally. Whether you're overcoming trauma, managing stress, or improving fitness, we're here to help you move forward with strength and resilience.
               </p>
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full">
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full relative overflow-visible" style={{
+                boxShadow: '15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)'
+              }}>
                 Get Started Today
               </Button>
             </div>
