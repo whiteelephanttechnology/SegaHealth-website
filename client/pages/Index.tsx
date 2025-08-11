@@ -282,9 +282,11 @@ export default function Index() {
               <div className="relative max-w-2xl mx-auto">
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
+                    key={currentImageIndex}
                     src={equipmentImages[currentImageIndex].src}
                     alt={equipmentImages[currentImageIndex].alt}
                     className="w-full h-96 object-cover transition-all duration-300"
+                    loading="eager"
                   />
                 </div>
 
