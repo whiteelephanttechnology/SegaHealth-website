@@ -662,8 +662,15 @@ export default function Index() {
             </div>
           </div>
           
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 SegaHealth. All rights reserved.</p>
+          <div className="border-t border-gray-800 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center text-gray-400">
+              <p>&copy; 2025 SegaHealth LLC All rights reserved.</p>
+              <div className="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" className="hover:text-orange-500 transition-colors">Privacy Policy</a>
+                <a href="#" className="hover:text-orange-500 transition-colors">Terms of Service</a>
+                <a href="#" className="hover:text-orange-500 transition-colors">Cookie Settings</a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
