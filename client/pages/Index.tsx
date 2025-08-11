@@ -197,12 +197,12 @@ export default function Index() {
       </section>
 
       {/* Logos Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/d556602bd5b1ce5cb1e60c1db107fa0ceafb483d?width=3456"
             alt="Partner Logos"
-            className="w-full h-auto"
+            className="w-full h-auto -mt-px"
           />
         </div>
       </section>
