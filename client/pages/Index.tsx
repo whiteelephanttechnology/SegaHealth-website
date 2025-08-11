@@ -820,9 +820,6 @@ export default function Index() {
           <div className="grid lg:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="flex items-center space-x-2 mb-6">
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">S</span>
-                </div>
                 <span className="font-bold text-xl">SegaHealth</span>
               </div>
               <p className="text-gray-400 mb-6">
