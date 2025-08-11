@@ -262,7 +262,7 @@ export default function Index() {
                 autoPlay
                 muted
                 loop
-                className="w-full h-auto rounded-2xl"
+                className="w-full h-auto rounded-2xl pr-10"
               >
                 Your browser does not support the video tag.
               </video>
