@@ -57,19 +57,34 @@ export default function Index() {
               />
             </div>
             <div className="hidden md:flex space-x-6">
-              <a href="#home" className="hover:text-orange-500 transition-colors">
+              <a
+                href="#home"
+                className="hover:text-orange-500 transition-colors"
+              >
                 Home
               </a>
-              <a href="#about" className="hover:text-orange-500 transition-colors">
+              <a
+                href="#about"
+                className="hover:text-orange-500 transition-colors"
+              >
                 About
               </a>
-              <a href="#courses" className="hover:text-orange-500 transition-colors">
+              <a
+                href="#courses"
+                className="hover:text-orange-500 transition-colors"
+              >
                 Courses
               </a>
-              <a href="#equipment" className="hover:text-orange-500 transition-colors">
+              <a
+                href="#equipment"
+                className="hover:text-orange-500 transition-colors"
+              >
                 Equipment
               </a>
-              <a href="#contact" className="hover:text-orange-500 transition-colors">
+              <a
+                href="#contact"
+                className="hover:text-orange-500 transition-colors"
+              >
                 Contact
               </a>
             </div>
@@ -81,7 +96,10 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative bg-black text-white overflow-hidden min-h-[600px] lg:min-h-[800px]">
+      <section
+        id="home"
+        className="relative bg-black text-white overflow-hidden min-h-[600px] lg:min-h-[800px]"
+      >
         <div className="absolute inset-0">
           <iframe
             src="https://www.youtube.com/embed/XJR5etgd4lA?autoplay=1&mute=1&loop=1&playlist=XJR5etgd4lA&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=0&disablekb=1"
