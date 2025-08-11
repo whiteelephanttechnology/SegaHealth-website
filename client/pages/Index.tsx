@@ -194,7 +194,9 @@ export default function Index() {
                 </div>
               </div>
 
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg rounded-full mt-8 shadow-lg">
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg rounded-full mt-8 shadow-lg relative overflow-visible" style={{
+                boxShadow: '15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)'
+              }}>
                 Start Your Certification Today
               </Button>
             </div>
