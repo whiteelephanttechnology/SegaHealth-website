@@ -131,9 +131,7 @@ export default function Index() {
               </span>
             </h1>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
-              Unlock your potential and transform lives through our
-              comprehensive training programs. Join a community dedicated to
-              excellence and make a difference in the health sector.
+              Unlock your potential become a certified WB-EMS trainer never been easier through our comprehensive training program
             </p>
             <div className="flex justify-start">
               <Button
