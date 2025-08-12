@@ -541,7 +541,7 @@ export default function Index() {
             {/* Juan Uribe - Left */}
             <div className="text-center lg:text-left">
               <img
-                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754694302/WhatsApp_Image_2025-08-07_at_23.56.53_7eab214a_fmij3w.svg"
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755007791/quality_restoration_20250809051254101_vvyv9h.jpg"
                 alt="Juan Uribe"
                 className="w-full max-w-md mx-auto lg:mx-0 h-auto object-cover rounded-2xl mb-6"
               />
