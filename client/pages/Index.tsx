@@ -130,12 +130,6 @@ export default function Index() {
                 Electric Muscle Stimulation
               </span>
             </h1>
-            <p className="text-4xl lg:text-6xl font-bold text-gray-300 mb-4">
-              Certified Trainer
-            </p>
-            <p className="text-4xl lg:text-6xl font-bold text-gray-400 mb-6 max-w-lg">
-              Never been Easier
-            </p>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
               Unlock your potential and transform lives through our
               comprehensive training programs. Join a community dedicated to
