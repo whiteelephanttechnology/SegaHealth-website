@@ -192,7 +192,7 @@ export default function Index() {
       <section className="py-12 bg-gray-800">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Trusted by Industry Leaders</h3>
+            <h3 className="text-2xl font-semibold text-white mb-4">Trusted by Industry Leaders</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center justify-items-center">
             <div className="flex items-center justify-center h-16 w-full">
