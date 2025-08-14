@@ -125,7 +125,7 @@ export default function Index() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
-            className="fixed top-20 left-1/2 transform -translate-x-1/2 z-40 bg-black/90 backdrop-blur-md text-white p-6 rounded-2xl border border-white/10 shadow-lg lg:hidden"
+            className="fixed top-16 left-4 right-4 lg:top-20 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:max-w-sm z-40 bg-black/90 backdrop-blur-md text-white p-6 rounded-2xl border border-white/10 shadow-lg lg:hidden"
             style={{
               boxShadow: "0 0 20px rgba(249, 115, 22, 0.3), 0 0 40px rgba(249, 115, 22, 0.2), 0 0 60px rgba(249, 115, 22, 0.1), 0 4px 20px rgba(0, 0, 0, 0.3)"
             }}
