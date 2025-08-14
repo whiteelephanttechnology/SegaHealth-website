@@ -500,7 +500,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <video
-                src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1754693202/WhatsApp_Video_2025-08-08_at_03.20.20_50e0c599_g2awt0.mp4"
+                src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1755187190/WhatsApp_Video_2025-08-08_at_03.20.20_50e0c599_1_st5hki.webm"
                 autoPlay
                 muted
                 loop
