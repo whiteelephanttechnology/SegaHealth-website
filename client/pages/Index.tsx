@@ -288,6 +288,7 @@ export default function Index() {
 
           <div className="text-center">
             <Button
+              onClick={openCalendly}
               className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 relative overflow-visible"
               style={{
                 boxShadow:
@@ -455,6 +456,7 @@ export default function Index() {
               </div>
 
               <Button
+                onClick={openCalendly}
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg rounded-full mt-8 shadow-lg relative overflow-visible"
                 style={{
                   boxShadow:
@@ -509,6 +511,7 @@ export default function Index() {
                 confidence to excel in your EMS career.
               </p>
               <Button
+                onClick={openCalendly}
                 className="bg-white hover:bg-gray-50 text-black px-8 py-3 rounded-full relative overflow-visible"
                 style={{
                   boxShadow:
