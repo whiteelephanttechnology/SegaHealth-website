@@ -84,7 +84,7 @@ export default function Index() {
             <div className="flex items-center space-x-2">
               <img
                 src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696037/WhatsApp_Image_2025-08-04_at_20.42.08_81fe8df0_1_tq2qgj.svg"
-                alt="SegaHealth Logo"
+                alt="SageHealth Logo"
                 className="h-16 lg:h-12 w-auto"
               />
             </div>
@@ -550,7 +550,7 @@ export default function Index() {
                   Equipment:
                 </h2>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Special Offer For SegaHealth Students
+                  Special Offer For SageHealth Students
                 </h3>
                 <p className="text-lg text-gray-600 mb-6">
                   Get exclusive access to professional-grade XBody EMS equipment
@@ -789,7 +789,7 @@ export default function Index() {
                 <h3 className="text-2xl font-bold mb-2 text-white">
                   Juan Uribe
                 </h3>
-                <p className="text-orange-500 mb-2">Founder - SegaHealth</p>
+                <p className="text-orange-500 mb-2">Founder - SageHealth</p>
                 <p className="text-sm text-gray-300">
                   Strategy, Energy and Execution.
                 </p>
@@ -806,7 +806,7 @@ export default function Index() {
                 <br />
                 Behind
                 <br />
-                <span className="text-orange-500">SegaHealth</span>
+                <span className="text-orange-500">SageHealth</span>
               </h2>
               <p className="text-gray-300 mb-8 leading-relaxed max-w-md mx-auto">
                 We're not just building a fitness program we're creating a
@@ -909,7 +909,7 @@ export default function Index() {
                 certification?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                Yes! As a <strong>SegaHealth student</strong>, you can purchase
+                Yes! As a <strong>SageHealth student</strong>, you can purchase
                 the <strong>X Body EMS equipment</strong> at a discounted price,
                 with <strong>financing options</strong> available. You can own
                 the equipment and start your own fitness business!
@@ -1071,7 +1071,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="flex items-center space-x-2 mb-6">
-                <span className="font-bold text-xl">SegaHealth</span>
+                <span className="font-bold text-xl">SageHealth</span>
               </div>
               <p className="text-gray-400 mb-6">
                 Leading the future of fitness with professional WB-EMS
@@ -1185,7 +1185,7 @@ export default function Index() {
 
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-gray-400">
-              <p>&copy; 2025 SegaHealth LLC All rights reserved.</p>
+              <p>&copy; 2025 SageHealth LLC All rights reserved.</p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#" className="hover:text-orange-500 transition-colors">
                   Privacy Policy
