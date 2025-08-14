@@ -103,9 +103,15 @@ export default function Index() {
               className="p-2 rounded-lg hover:bg-orange-500/20 transition-colors"
             >
               <div className="w-6 h-6 flex flex-col justify-around">
-                <span className={`h-1 w-6 bg-orange-500 rounded transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2.5' : ''}`}></span>
-                <span className={`h-1 w-6 bg-orange-500 rounded transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`}></span>
-                <span className={`h-1 w-6 bg-orange-500 rounded transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2.5' : ''}`}></span>
+                <span
+                  className={`h-1 w-6 bg-orange-500 rounded transition-all duration-300 ${isMobileMenuOpen ? "rotate-45 translate-y-2.5" : ""}`}
+                ></span>
+                <span
+                  className={`h-1 w-6 bg-orange-500 rounded transition-all duration-300 ${isMobileMenuOpen ? "opacity-0" : ""}`}
+                ></span>
+                <span
+                  className={`h-1 w-6 bg-orange-500 rounded transition-all duration-300 ${isMobileMenuOpen ? "-rotate-45 -translate-y-2.5" : ""}`}
+                ></span>
               </div>
             </button>
           </div>
@@ -127,7 +133,8 @@ export default function Index() {
             transition={{ duration: 0.2 }}
             className="fixed top-20 left-4 right-4 lg:top-20 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:max-w-sm z-40 bg-black/90 backdrop-blur-md text-white p-6 rounded-2xl border border-white/10 shadow-lg lg:hidden"
             style={{
-              boxShadow: "0 0 20px rgba(249, 115, 22, 0.3), 0 0 40px rgba(249, 115, 22, 0.2), 0 0 60px rgba(249, 115, 22, 0.1), 0 4px 20px rgba(0, 0, 0, 0.3)"
+              boxShadow:
+                "0 0 20px rgba(249, 115, 22, 0.3), 0 0 40px rgba(249, 115, 22, 0.2), 0 0 60px rgba(249, 115, 22, 0.1), 0 4px 20px rgba(0, 0, 0, 0.3)",
             }}
           >
             <div className="flex flex-col space-y-4">
