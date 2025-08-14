@@ -46,7 +46,12 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-black/80 backdrop-blur-md text-white px-6 py-3 rounded-full border border-white/10 shadow-lg">
+      <nav
+        className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-black/80 backdrop-blur-md text-white px-6 py-3 rounded-full border border-white/10 shadow-lg"
+        style={{
+          boxShadow: '0 0 20px rgba(249, 115, 22, 0.3), 0 0 40px rgba(249, 115, 22, 0.2), 0 0 60px rgba(249, 115, 22, 0.1), 0 4px 20px rgba(0, 0, 0, 0.3)'
+        }}
+      >
         <div className="flex items-center justify-between w-full max-w-4xl">
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
