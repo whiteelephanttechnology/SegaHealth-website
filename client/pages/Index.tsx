@@ -288,7 +288,7 @@ export default function Index() {
 
           <div className="flex justify-center mb-12">
             <video
-              src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1755171515/lv_0_20250814130510_txbcww.mp4"
+              src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1755185501/lv_0_20250814130510_hgwbw5.webm"
               autoPlay
               muted
               loop
