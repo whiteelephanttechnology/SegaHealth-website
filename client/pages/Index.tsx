@@ -1227,12 +1227,15 @@ export default function Index() {
                 </svg>
               </button>
 
-              {/* Calendly Inline Widget */}
-              <div
-                className="calendly-inline-widget"
-                data-url="https://calendly.com/iam-samisiddiqui/30min?primary_color=ff6200"
-                style={{ minWidth: '320px', height: '100%' }}
-              ></div>
+              {/* Calendly Iframe */}
+              <iframe
+                src="https://calendly.com/iam-samisiddiqui/30min?embed_domain=localhost&embed_type=Inline&primary_color=ff6200"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                title="Calendly Scheduling"
+                className="rounded-2xl"
+              ></iframe>
             </motion.div>
           </motion.div>
         )}
