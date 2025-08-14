@@ -510,7 +510,9 @@ export default function Index() {
               </video>
             </div>
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6">Meet SageAI</h2>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+                Meet SageAI
+              </h2>
               <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                 With over a decade of experience in fitness and rehabilitation,
                 Sage is a certified EMS specialist who has helped thousands of
