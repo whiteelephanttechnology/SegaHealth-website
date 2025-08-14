@@ -131,7 +131,8 @@ export default function Index() {
               </span>
             </h1>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
-              Unlock your potential become a certified WB-EMS trainer never been easier through our comprehensive training program
+              Unlock your potential become a certified WB-EMS trainer never been
+              easier through our comprehensive training program
             </p>
             <div className="flex justify-start">
               <Button
@@ -192,7 +193,9 @@ export default function Index() {
       <section className="py-12 bg-gray-600">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-semibold text-white mb-4">Trusted by Industry Leaders</h3>
+            <h3 className="text-2xl font-semibold text-white mb-4">
+              Trusted by Industry Leaders
+            </h3>
           </div>
           <div className="overflow-hidden">
             <div className="flex animate-scroll">
