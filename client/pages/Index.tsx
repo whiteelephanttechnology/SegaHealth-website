@@ -23,6 +23,7 @@ export default function Index() {
   const [showAllFAQs, setShowAllFAQs] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isCalendlyOpen, setIsCalendlyOpen] = useState(false);
 
   // Load Calendly script
   useEffect(() => {
@@ -34,13 +35,9 @@ export default function Index() {
     }
   }, []);
 
-  // Function to open Calendly popup
+  // Function to open Calendly modal
   const openCalendly = () => {
-    if (window.Calendly) {
-      window.Calendly.initPopupWidget({
-        url: "https://calendly.com/iam-samisiddiqui/30min?primary_color=ff6200",
-      });
-    }
+    setIsCalendlyOpen(true);
   };
 
   const equipmentImages = [
