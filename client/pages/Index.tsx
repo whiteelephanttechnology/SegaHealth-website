@@ -60,7 +60,7 @@ export default function Index() {
               <img
                 src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696037/WhatsApp_Image_2025-08-04_at_20.42.08_81fe8df0_1_tq2qgj.svg"
                 alt="SegaHealth Logo"
-                className="h-12 w-auto"
+                className="h-16 lg:h-12 w-auto"
               />
             </div>
             <div className="hidden lg:flex space-x-6">
