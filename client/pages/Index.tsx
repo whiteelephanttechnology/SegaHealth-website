@@ -124,7 +124,7 @@ export default function Index() {
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 lg:py-32">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl mt-16 lg:mt-24">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
               Whole body
               <br />
