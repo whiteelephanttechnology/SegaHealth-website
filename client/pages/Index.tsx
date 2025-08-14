@@ -208,49 +208,49 @@ export default function Index() {
           <div className="overflow-hidden">
             <div className="flex animate-scroll">
               {/* First set of logos */}
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_c3c83f5f-removebg-preview_yrcdho.png"
                   alt="Partner Logo 1"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_b6cc7e51-removebg-preview_cckoqq.png"
                   alt="EMS BodySculpt"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/EMS-Training-empulse-training_1_cvtkun.png"
                   alt="EMS Training Empulse"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/3.a_Ruby_1723491857_1-removebg-preview_jkof7o.png"
                   alt="Ruby Fitness"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/image_8-removebg-preview_wugzyg.png"
                   alt="ZeroXCuses"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/The_body_lab_white_logo_black_bg_1-removebg-preview_1_kqzm39.png"
                   alt="The Body Lab"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/LOGO-343X52-01_1_vixano.png"
                   alt="Empulse Training"
@@ -259,49 +259,49 @@ export default function Index() {
               </div>
 
               {/* Duplicate set for seamless loop */}
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_c3c83f5f-removebg-preview_yrcdho.png"
                   alt="Partner Logo 1"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_b6cc7e51-removebg-preview_cckoqq.png"
                   alt="EMS BodySculpt"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/EMS-Training-empulse-training_1_cvtkun.png"
                   alt="EMS Training Empulse"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/3.a_Ruby_1723491857_1-removebg-preview_jkof7o.png"
                   alt="Ruby Fitness"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/image_8-removebg-preview_wugzyg.png"
                   alt="ZeroXCuses"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/The_body_lab_white_logo_black_bg_1-removebg-preview_1_kqzm39.png"
                   alt="The Body Lab"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
-              <div className="flex items-center justify-center h-24 w-60 flex-shrink-0">
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/LOGO-343X52-01_1_vixano.png"
                   alt="Empulse Training"
