@@ -101,8 +101,11 @@ export default function Index() {
         className="relative bg-black text-white overflow-hidden min-h-[600px] lg:min-h-[800px]"
       >
         <div className="absolute inset-0">
-          <iframe
-            src="https://www.youtube.com/embed/XJR5etgd4lA?autoplay=1&mute=1&loop=1&playlist=XJR5etgd4lA&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&fs=0&disablekb=1"
+          <video
+            src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1755172753/lv_0_20250813060004_keo6hb.mp4"
+            autoPlay
+            muted
+            loop
             className="w-full h-full object-cover"
             style={{
               position: "absolute",
@@ -115,10 +118,9 @@ export default function Index() {
               minHeight: "100%",
               pointerEvents: "none",
             }}
-            frameBorder="0"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-          />
+          >
+            Your browser does not support the video tag.
+          </video>
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 lg:py-32">
