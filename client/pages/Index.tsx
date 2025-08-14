@@ -554,7 +554,7 @@ export default function Index() {
                     Full Training Included
                   </Badge>
                 </div>
-                <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full">
+                <Button onClick={openCalendly} className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full">
                   Learn More About Equipment
                 </Button>
               </div>
@@ -744,7 +744,7 @@ export default function Index() {
           </div>
 
           <div className="text-center">
-            <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg rounded-full mb-4 shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button onClick={openCalendly} className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg rounded-full mb-4 shadow-lg hover:shadow-xl transition-all duration-300">
               Book a Free Demo
             </Button>
             <p className="text-gray-600 text-lg">
@@ -800,6 +800,7 @@ export default function Index() {
                 here to help you move forward with strength and resilience.
               </p>
               <Button
+                onClick={openCalendly}
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full relative overflow-visible"
                 style={{
                   boxShadow:
