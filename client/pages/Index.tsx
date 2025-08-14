@@ -94,7 +94,7 @@ export default function Index() {
               </a>
             </div>
           </div>
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium">
+          <Button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium ml-6">
             Get Started
           </Button>
         </div>
