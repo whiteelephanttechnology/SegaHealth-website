@@ -15,6 +15,25 @@ export default function Index() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // Load Calendly script
+  useEffect(() => {
+    if (!document.querySelector('script[src*="calendly"]')) {
+      const script = document.createElement('script');
+      script.src = 'https://assets.calendly.com/assets/external/widget.js';
+      script.async = true;
+      document.body.appendChild(script);
+    }
+  }, []);
+
+  // Function to open Calendly popup
+  const openCalendly = () => {
+    if (window.Calendly) {
+      window.Calendly.initPopupWidget({
+        url: 'https://calendly.com/iam-samisiddiqui/30min?primary_color=ff6200'
+      });
+    }
+  };
+
   const equipmentImages = [
     {
       src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757529/XB_2022-29_pl7nh0.jpg",
