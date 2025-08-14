@@ -189,13 +189,62 @@ export default function Index() {
       </section>
 
       {/* Logos Section */}
-      <section className="bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/d556602bd5b1ce5cb1e60c1db107fa0ceafb483d?width=3456"
-            alt="Partner Logos"
-            className="w-full h-auto -mt-px"
-          />
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Trusted by Industry Leaders</h3>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center justify-items-center">
+            <div className="flex items-center justify-center h-16 w-full">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_c3c83f5f-removebg-preview_yrcdho.png"
+                alt="Partner Logo 1"
+                className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <div className="flex items-center justify-center h-16 w-full">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_b6cc7e51-removebg-preview_cckoqq.png"
+                alt="EMS BodySculpt"
+                className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <div className="flex items-center justify-center h-16 w-full">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/EMS-Training-empulse-training_1_cvtkun.png"
+                alt="EMS Training Empulse"
+                className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <div className="flex items-center justify-center h-16 w-full">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/3.a_Ruby_1723491857_1-removebg-preview_jkof7o.png"
+                alt="Ruby Fitness"
+                className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <div className="flex items-center justify-center h-16 w-full">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/image_8-removebg-preview_wugzyg.png"
+                alt="ZeroXCuses"
+                className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <div className="flex items-center justify-center h-16 w-full">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/The_body_lab_white_logo_black_bg_1-removebg-preview_1_kqzm39.png"
+                alt="The Body Lab"
+                className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <div className="flex items-center justify-center h-16 w-full">
+              <img
+                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/LOGO-343X52-01_1_vixano.png"
+                alt="Empulse Training"
+                className="max-h-12 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
