@@ -48,15 +48,15 @@ export default function Index() {
       {/* Navigation */}
       <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-black/80 backdrop-blur-md text-white px-6 py-3 rounded-full border border-white/10 shadow-lg">
         <div className="flex items-center justify-between w-full max-w-4xl">
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <img
                 src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696037/WhatsApp_Image_2025-08-04_at_20.42.08_81fe8df0_1_tq2qgj.svg"
                 alt="SegaHealth Logo"
-                className="h-10 w-auto"
+                className="h-8 w-auto"
               />
             </div>
-            <div className="hidden md:flex space-x-6">
+            <div className="hidden lg:flex space-x-6">
               <a
                 href="#home"
                 className="hover:text-orange-500 transition-colors"
