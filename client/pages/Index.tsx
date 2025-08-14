@@ -1199,6 +1199,44 @@ export default function Index() {
           </div>
         </div>
       </footer>
+
+      {/* Calendly Modal */}
+      <AnimatePresence>
+        {isCalendlyOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"
+            onClick={() => setIsCalendlyOpen(false)}
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              className="bg-white rounded-2xl w-full max-w-4xl h-[90vh] overflow-hidden relative"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Close Button */}
+              <button
+                onClick={() => setIsCalendlyOpen(false)}
+                className="absolute top-4 right-4 z-10 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+
+              {/* Calendly Inline Widget */}
+              <div
+                className="calendly-inline-widget"
+                data-url="https://calendly.com/iam-samisiddiqui/30min?primary_color=ff6200"
+                style={{ minWidth: '320px', height: '100%' }}
+              ></div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
