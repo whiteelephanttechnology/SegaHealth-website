@@ -117,6 +117,66 @@ export default function Index() {
         </div>
       </nav>
 
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.2 }}
+            className="fixed top-20 left-1/2 transform -translate-x-1/2 z-40 bg-black/90 backdrop-blur-md text-white p-6 rounded-2xl border border-white/10 shadow-lg lg:hidden"
+            style={{
+              boxShadow: "0 0 20px rgba(249, 115, 22, 0.3), 0 0 40px rgba(249, 115, 22, 0.2), 0 0 60px rgba(249, 115, 22, 0.1), 0 4px 20px rgba(0, 0, 0, 0.3)"
+            }}
+          >
+            <div className="flex flex-col space-y-4">
+              <a
+                href="#home"
+                className="hover:text-orange-500 transition-colors py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Home
+              </a>
+              <a
+                href="#about"
+                className="hover:text-orange-500 transition-colors py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                About
+              </a>
+              <a
+                href="#courses"
+                className="hover:text-orange-500 transition-colors py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Courses
+              </a>
+              <a
+                href="#equipment"
+                className="hover:text-orange-500 transition-colors py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Equipment
+              </a>
+              <a
+                href="#contact"
+                className="hover:text-orange-500 transition-colors py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Contact
+              </a>
+              <Button
+                className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium mt-4"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Get Started
+              </Button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       {/* Hero Section */}
       <section
         id="home"
