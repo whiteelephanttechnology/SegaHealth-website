@@ -164,7 +164,7 @@ export default function Index() {
 
           <div className="flex justify-center mb-12">
             <video
-              src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1754695934/WhatsApp_Video_2025-08-08_at_03.20.45_3b0c391b_yvm3v3.mp4"
+              src="https://res.cloudinary.com/dcd0zqorf/video/upload/v1755171515/lv_0_20250814130510_txbcww.mp4"
               autoPlay
               muted
               loop
