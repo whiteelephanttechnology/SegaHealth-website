@@ -27,8 +27,8 @@ export default function Index() {
   // Load Calendly script
   useEffect(() => {
     if (!document.querySelector('script[src*="calendly"]')) {
-      const script = document.createElement('script');
-      script.src = 'https://assets.calendly.com/assets/external/widget.js';
+      const script = document.createElement("script");
+      script.src = "https://assets.calendly.com/assets/external/widget.js";
       script.async = true;
       document.body.appendChild(script);
     }
@@ -38,7 +38,7 @@ export default function Index() {
   const openCalendly = () => {
     if (window.Calendly) {
       window.Calendly.initPopupWidget({
-        url: 'https://calendly.com/iam-samisiddiqui/30min?primary_color=ff6200'
+        url: "https://calendly.com/iam-samisiddiqui/30min?primary_color=ff6200",
       });
     }
   };
@@ -145,7 +145,10 @@ export default function Index() {
           </div>
 
           {/* Desktop Get Started button */}
-          <Button onClick={openCalendly} className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium ml-6">
+          <Button
+            onClick={openCalendly}
+            className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium ml-6"
+          >
             Get Started
           </Button>
         </div>
@@ -203,7 +206,10 @@ export default function Index() {
               </a>
               <Button
                 className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium mt-4"
-                onClick={() => { setIsMobileMenuOpen(false); openCalendly(); }}
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  openCalendly();
+                }}
               >
                 Get Started
               </Button>
@@ -563,7 +569,10 @@ export default function Index() {
                     Full Training Included
                   </Badge>
                 </div>
-                <Button onClick={openCalendly} className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full">
+                <Button
+                  onClick={openCalendly}
+                  className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full"
+                >
                   Learn More About Equipment
                 </Button>
               </div>
@@ -753,7 +762,10 @@ export default function Index() {
           </div>
 
           <div className="text-center">
-            <Button onClick={openCalendly} className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg rounded-full mb-4 shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button
+              onClick={openCalendly}
+              className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg rounded-full mb-4 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
               Book a Free Demo
             </Button>
             <p className="text-gray-600 text-lg">
