@@ -494,7 +494,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Meet Sage Section */}
+      {/* Meet SageAI Section */}
       <section id="about" className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
