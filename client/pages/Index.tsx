@@ -13,6 +13,7 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Index() {
   const [showAllFAQs, setShowAllFAQs] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const equipmentImages = [
     {
