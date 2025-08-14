@@ -10,6 +10,15 @@ import {
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+// TypeScript declaration for Calendly
+declare global {
+  interface Window {
+    Calendly: {
+      initPopupWidget: (options: { url: string }) => void;
+    };
+  }
+}
+
 export default function Index() {
   const [showAllFAQs, setShowAllFAQs] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
