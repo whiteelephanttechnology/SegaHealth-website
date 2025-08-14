@@ -136,7 +136,7 @@ export default function Index() {
           </div>
 
           {/* Desktop Get Started button */}
-          <Button className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium ml-6">
+          <Button onClick={openCalendly} className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium ml-6">
             Get Started
           </Button>
         </div>
@@ -194,7 +194,7 @@ export default function Index() {
               </a>
               <Button
                 className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium mt-4"
-                onClick={() => setIsMobileMenuOpen(false)}
+                onClick={() => { setIsMobileMenuOpen(false); openCalendly(); }}
               >
                 Get Started
               </Button>
@@ -246,6 +246,7 @@ export default function Index() {
             </p>
             <div className="flex justify-start">
               <Button
+                onClick={openCalendly}
                 className="bg-white hover:bg-gray-50 text-black px-8 py-3 rounded-full text-lg relative overflow-visible"
                 style={{
                   boxShadow:
