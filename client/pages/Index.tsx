@@ -903,7 +903,7 @@ export default function Index() {
               className="border-b border-gray-700 pb-4"
             >
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                How do I get started with WBWB-EMS certification?
+                How do I get started with WB-EMS certification?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                 To begin your journey, simply enroll in our{" "}
@@ -919,7 +919,7 @@ export default function Index() {
               className="border-b border-gray-700 pb-4"
             >
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                What equipment will I need to start my WBWB-EMS business?
+                What equipment will I need to start my WB-EMS business?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                 You will need an <strong>X Body WB-EMS machine</strong>, which
@@ -1015,10 +1015,10 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        Can I run a WBWB-EMS business from home?
+                        Can I run a WB-EMS business from home?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                        Yes! You can set up your WBWB-EMS business in your{" "}
+                        Yes! You can set up your WB-EMS business in your{" "}
                         <strong>home gym</strong> or any{" "}
                         <strong>private space</strong>. With the right equipment
                         and knowledge, you can train clients from the comfort of
@@ -1049,7 +1049,7 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        How can I promote my WBWB-EMS business once I'm
+                        How can I promote my WB-EMS business once I'm
                         certified?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
