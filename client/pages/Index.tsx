@@ -43,19 +43,19 @@ export default function Index() {
   const equipmentImages = [
     {
       src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757529/XB_2022-29_pl7nh0.jpg",
-      alt: "XBody EMS Equipment 1",
+      alt: "XBody WB-EMS Equipment 1",
     },
     {
       src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757508/XB_2022-1_luocdd.jpg",
-      alt: "XBody EMS Equipment 2",
+      alt: "XBody WB-EMS Equipment 2",
     },
     {
       src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757507/IMG_8742_w8mplk.jpg",
-      alt: "XBody EMS Equipment 3",
+      alt: "XBody WB-EMS Equipment 3",
     },
     {
       src: "https://res.cloudinary.com/dcd0zqorf/image/upload/v1754757491/IMG_8676_kodeiv.jpg",
-      alt: "XBody EMS Equipment 4",
+      alt: "XBody WB-EMS Equipment 4",
     },
   ];
 
@@ -253,7 +253,7 @@ export default function Index() {
               </span>
             </h1>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
-              Unlock your potential become a certified WB-EMS trainer never been
+              Unlock your potential become a certified WB-WB-EMS trainer never been
               easier through our comprehensive training program
             </p>
             <div className="flex justify-start">
@@ -277,10 +277,10 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-6xl font-bold text-black mb-6 capitalize leading-tight max-w-5xl mx-auto">
-              Elevate Your Career With Our Specialized WB-EMS Certification
+              Elevate Your Career With Our Specialized WB-WB-EMS Certification
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Elevate your career with our specialized EMS certification,
+              Elevate your career with our specialized WB-EMS certification,
               personalized coaching, and top-quality equipment. We empower you
               to achieve your professional goals and enhance your skills.
             </p>
@@ -334,14 +334,14 @@ export default function Index() {
               <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_b6cc7e51-removebg-preview_cckoqq.png"
-                  alt="EMS BodySculpt"
+                  alt="WB-EMS BodySculpt"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
               <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
-                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/EMS-Training-empulse-training_1_cvtkun.png"
-                  alt="EMS Training Empulse"
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/WB-EMS-Training-empulse-training_1_cvtkun.png"
+                  alt="WB-EMS Training Empulse"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
@@ -399,14 +399,14 @@ export default function Index() {
               <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
                   src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168291/WhatsApp_Image_2025-08-13_at_20.52.19_b6cc7e51-removebg-preview_cckoqq.png"
-                  alt="EMS BodySculpt"
+                  alt="WB-EMS BodySculpt"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
               <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
-                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/EMS-Training-empulse-training_1_cvtkun.png"
-                  alt="EMS Training Empulse"
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755168290/WB-EMS-Training-empulse-training_1_cvtkun.png"
+                  alt="WB-EMS Training Empulse"
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
@@ -543,14 +543,14 @@ export default function Index() {
               </h2>
               <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                 With over a decade of experience in fitness and rehabilitation,
-                Sage is a certified EMS specialist who has helped thousands of
+                Sage is a certified WB-EMS specialist who has helped thousands of
                 clients achieve their health and fitness goals through
-                innovative WB-EMS technology.
+                innovative WB-WB-EMS technology.
               </p>
               <p className="text-lg text-gray-400 mb-8">
                 As your instructor, Sage will guide you through every step of
                 your certification journey, ensuring you have the knowledge and
-                confidence to excel in your EMS career.
+                confidence to excel in your WB-EMS career.
               </p>
               <Button
                 onClick={openCalendly}
@@ -581,7 +581,7 @@ export default function Index() {
                   Special Offer For SegaHealth Students
                 </h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Get exclusive access to professional-grade XBody EMS equipment
+                  Get exclusive access to professional-grade XBody WB-EMS equipment
                   at special student prices. Start your business with the best
                   technology in the industry.
                 </p>
@@ -736,12 +736,12 @@ export default function Index() {
                 <div className="w-16 h-16 mx-auto flex items-center justify-center mb-3">
                   <img
                     src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696190/body_1_ytrfvt.svg"
-                    alt="Industry-leading EMS technology"
+                    alt="Industry-leading WB-EMS technology"
                     className="w-12 h-12"
                   />
                 </div>
                 <h3 className="text-lg font-semibold text-black">
-                  Industry-leading EMS technology
+                  Industry-leading WB-EMS technology
                 </h3>
                 <p className="text-gray-700 text-sm">
                   Learn the latest in electric muscle stimulation technology and
@@ -753,11 +753,11 @@ export default function Index() {
 
           <div id="equipment" className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8">
-              Explore Your WB-EMS Equipment Options
+              Explore Your WB-WB-EMS Equipment Options
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Choose from our range of <strong>FDA approved</strong>{" "}
-              professional-grade equipment to start your EMS business or enhance
+              professional-grade equipment to start your WB-EMS business or enhance
               your training offerings.
             </p>
           </div>
@@ -839,7 +839,7 @@ export default function Index() {
               <p className="text-gray-300 mb-8 leading-relaxed max-w-md mx-auto">
                 We're not just building a fitness program we're creating a
                 community focused on transformation. With Juan's expertise in
-                coaching and strategy and Brian's technical excellence in EMS
+                coaching and strategy and Brian's technical excellence in WB-EMS
                 technology and execution, we guide you from the inside out and
                 the outside in. Together, we combine science, empathy, and
                 proven methods to help you grow, heal, and perform at your
@@ -903,7 +903,7 @@ export default function Index() {
               className="border-b border-gray-700 pb-4"
             >
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                How do I get started with WBEMS certification?
+                How do I get started with WBWB-EMS certification?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                 To begin your journey, simply enroll in our{" "}
@@ -919,10 +919,10 @@ export default function Index() {
               className="border-b border-gray-700 pb-4"
             >
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                What equipment will I need to start my WBEMS business?
+                What equipment will I need to start my WBWB-EMS business?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                You will need an <strong>X Body EMS machine</strong>, which is
+                You will need an <strong>X Body WB-EMS machine</strong>, which is
                 used for training and rehabilitation. We offer exclusive student
                 discounts and financing options for purchasing the equipment.
               </AccordionContent>
@@ -933,12 +933,12 @@ export default function Index() {
               className="border-b border-gray-700 pb-4"
             >
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                Can I purchase the EMS equipment after I complete my
+                Can I purchase the WB-EMS equipment after I complete my
                 certification?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                 Yes! As a <strong>SageHealth student</strong>, you can purchase
-                the <strong>X Body EMS equipment</strong> at a discounted price,
+                the <strong>X Body WB-EMS equipment</strong> at a discounted price,
                 with <strong>financing options</strong> available. You can own
                 the equipment and start your own fitness business!
               </AccordionContent>
@@ -949,7 +949,7 @@ export default function Index() {
               className="border-b border-gray-700 pb-4"
             >
               <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                How much does the EMS equipment cost?
+                How much does the WB-EMS equipment cost?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                 The cost varies based on the type and package you choose.
@@ -1014,10 +1014,10 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        Can I run a WBEMS business from home?
+                        Can I run a WBWB-EMS business from home?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                        Yes! You can set up your WBEMS business in your{" "}
+                        Yes! You can set up your WBWB-EMS business in your{" "}
                         <strong>home gym</strong> or any{" "}
                         <strong>private space</strong>. With the right equipment
                         and knowledge, you can train clients from the comfort of
@@ -1030,14 +1030,14 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        What makes X Body EMS equipment different from other
+                        What makes X Body WB-EMS equipment different from other
                         brands?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                         <strong>X Body</strong> offers{" "}
                         <strong>industry-leading technology</strong> with
                         unmatched performance in{" "}
-                        <strong>electrical muscle stimulation (EMS)</strong>.
+                        <strong>electrical muscle stimulation (WB-EMS)</strong>.
                         The equipment is trusted by professionals worldwide for
                         its quality and results.
                       </AccordionContent>
@@ -1048,7 +1048,7 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        How can I promote my WBEMS business once I'm certified?
+                        How can I promote my WBWB-EMS business once I'm certified?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                         Once certified, you'll have access to marketing
@@ -1067,7 +1067,7 @@ export default function Index() {
                         clients?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                        While <strong>EMS training</strong> requires the client
+                        While <strong>WB-EMS training</strong> requires the client
                         to be physically present for the session, you can
                         provide <strong>remote support</strong>,{" "}
                         <strong>consultations</strong>, and{" "}
@@ -1102,7 +1102,7 @@ export default function Index() {
                 <span className="font-bold text-xl">SegaHealth Academy</span>
               </div>
               <p className="text-gray-400 mb-6">
-                Leading the future of fitness with professional WB-EMS
+                Leading the future of fitness with professional WB-WB-EMS
                 certification and training programs.
               </p>
               <div className="flex space-x-4">
