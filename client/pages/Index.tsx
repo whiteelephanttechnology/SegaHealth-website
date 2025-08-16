@@ -253,7 +253,7 @@ export default function Index() {
               </span>
             </h1>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
-              Unlock your potential become a certified WB-WB-EMS trainer never
+              Unlock your potential become a certified WB-EMS trainer never
               been easier through our comprehensive training program
             </p>
             <div className="flex justify-start">
@@ -277,7 +277,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-6xl font-bold text-black mb-6 capitalize leading-tight max-w-5xl mx-auto">
-              Elevate Your Career With Our Specialized WB-WB-EMS Certification
+              Elevate Your Career With Our Specialized WB-EMS Certification
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Elevate your career with our specialized WB-EMS certification,
@@ -545,7 +545,7 @@ export default function Index() {
                 With over a decade of experience in fitness and rehabilitation,
                 Sage is a certified WB-EMS specialist who has helped thousands
                 of clients achieve their health and fitness goals through
-                innovative WB-WB-EMS technology.
+                innovative WB-EMS technology.
               </p>
               <p className="text-lg text-gray-400 mb-8">
                 As your instructor, Sage will guide you through every step of
@@ -753,7 +753,7 @@ export default function Index() {
 
           <div id="equipment" className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8">
-              Explore Your WB-WB-EMS Equipment Options
+              Explore Your WB-EMS Equipment Options
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Choose from our range of <strong>FDA approved</strong>{" "}
@@ -1104,7 +1104,7 @@ export default function Index() {
                 <span className="font-bold text-xl">SegaHealth Academy</span>
               </div>
               <p className="text-gray-400 mb-6">
-                Leading the future of fitness with professional WB-WB-EMS
+                Leading the future of fitness with professional WB-EMS
                 certification and training programs.
               </p>
               <div className="flex space-x-4">
