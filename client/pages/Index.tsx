@@ -321,8 +321,8 @@ export default function Index() {
               Trusted by Industry Leaders
             </h3>
           </div>
-          <div className="overflow-hidden">
-            <div className="flex animate-scroll">
+          <div className="overflow-hidden relative">
+            <div className="flex animate-scroll" style={{ width: '200%' }}>
               {/* First set of logos */}
               <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
