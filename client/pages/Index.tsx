@@ -1099,7 +1099,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="flex items-center space-x-2 mb-6">
-                <span className="font-bold text-xl">SageHealth</span>
+                <span className="font-bold text-xl">SegaHealth Academy</span>
               </div>
               <p className="text-gray-400 mb-6">
                 Leading the future of fitness with professional WB-EMS
