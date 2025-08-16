@@ -253,8 +253,8 @@ export default function Index() {
               </span>
             </h1>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
-              Unlock your potential become a certified WB-WB-EMS trainer never been
-              easier through our comprehensive training program
+              Unlock your potential become a certified WB-WB-EMS trainer never
+              been easier through our comprehensive training program
             </p>
             <div className="flex justify-start">
               <Button
@@ -322,7 +322,7 @@ export default function Index() {
             </h3>
           </div>
           <div className="overflow-hidden relative">
-            <div className="flex animate-scroll" style={{ width: '200%' }}>
+            <div className="flex animate-scroll" style={{ width: "200%" }}>
               {/* First set of logos */}
               <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
                 <img
@@ -543,8 +543,8 @@ export default function Index() {
               </h2>
               <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                 With over a decade of experience in fitness and rehabilitation,
-                Sage is a certified WB-EMS specialist who has helped thousands of
-                clients achieve their health and fitness goals through
+                Sage is a certified WB-EMS specialist who has helped thousands
+                of clients achieve their health and fitness goals through
                 innovative WB-WB-EMS technology.
               </p>
               <p className="text-lg text-gray-400 mb-8">
@@ -581,9 +581,9 @@ export default function Index() {
                   Special Offer For SegaHealth Students
                 </h3>
                 <p className="text-lg text-gray-600 mb-6">
-                  Get exclusive access to professional-grade XBody WB-EMS equipment
-                  at special student prices. Start your business with the best
-                  technology in the industry.
+                  Get exclusive access to professional-grade XBody WB-EMS
+                  equipment at special student prices. Start your business with
+                  the best technology in the industry.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-8">
                   <Badge variant="secondary" className="px-4 py-2 text-sm">
@@ -757,8 +757,8 @@ export default function Index() {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Choose from our range of <strong>FDA approved</strong>{" "}
-              professional-grade equipment to start your WB-EMS business or enhance
-              your training offerings.
+              professional-grade equipment to start your WB-EMS business or
+              enhance your training offerings.
             </p>
           </div>
 
@@ -922,9 +922,10 @@ export default function Index() {
                 What equipment will I need to start my WBWB-EMS business?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                You will need an <strong>X Body WB-EMS machine</strong>, which is
-                used for training and rehabilitation. We offer exclusive student
-                discounts and financing options for purchasing the equipment.
+                You will need an <strong>X Body WB-EMS machine</strong>, which
+                is used for training and rehabilitation. We offer exclusive
+                student discounts and financing options for purchasing the
+                equipment.
               </AccordionContent>
             </AccordionItem>
 
@@ -938,9 +939,9 @@ export default function Index() {
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                 Yes! As a <strong>SageHealth student</strong>, you can purchase
-                the <strong>X Body WB-EMS equipment</strong> at a discounted price,
-                with <strong>financing options</strong> available. You can own
-                the equipment and start your own fitness business!
+                the <strong>X Body WB-EMS equipment</strong> at a discounted
+                price, with <strong>financing options</strong> available. You
+                can own the equipment and start your own fitness business!
               </AccordionContent>
             </AccordionItem>
 
@@ -1048,7 +1049,8 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        How can I promote my WBWB-EMS business once I'm certified?
+                        How can I promote my WBWB-EMS business once I'm
+                        certified?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                         Once certified, you'll have access to marketing
@@ -1067,8 +1069,8 @@ export default function Index() {
                         clients?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                        While <strong>WB-EMS training</strong> requires the client
-                        to be physically present for the session, you can
+                        While <strong>WB-EMS training</strong> requires the
+                        client to be physically present for the session, you can
                         provide <strong>remote support</strong>,{" "}
                         <strong>consultations</strong>, and{" "}
                         <strong>progress tracking</strong> virtually. This
