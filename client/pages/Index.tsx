@@ -922,7 +922,7 @@ export default function Index() {
                 What equipment will I need to start my WB-EMS business?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                You will need an <strong>X Body WB-EMS machine</strong>, which
+                You will need an <strong>XBody WB-EMS machine</strong>, which
                 is used for training and rehabilitation. We offer exclusive
                 student discounts and financing options for purchasing the
                 equipment.
@@ -939,7 +939,7 @@ export default function Index() {
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                 Yes! As a <strong>SegaHealth student</strong>, you can purchase
-                the <strong>X Body WB-EMS equipment</strong> at a discounted
+                the <strong>XBody WB-EMS equipment</strong> at a discounted
                 price, with <strong>financing options</strong> available. You
                 can own the equipment and start your own fitness business!
               </AccordionContent>
@@ -1031,11 +1031,11 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        What makes X Body WB-EMS equipment different from other
+                        What makes XBody WB-EMS equipment different from other
                         brands?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                        <strong>X Body</strong> offers{" "}
+                        <strong>XBody</strong> offers{" "}
                         <strong>industry-leading technology</strong> with
                         unmatched performance in{" "}
                         <strong>electrical muscle stimulation (WB-EMS)</strong>.
