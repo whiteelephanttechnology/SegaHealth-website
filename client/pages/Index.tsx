@@ -438,6 +438,20 @@ export default function Index() {
                   className="max-h-20 w-auto object-contain"
                 />
               </div>
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
+                <img
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755331524/image-removebg-preview_ry6c0i.png"
+                  alt="New Partner Logo 1"
+                  className="max-h-20 w-auto object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center h-24 w-32 md:w-60 flex-shrink-0">
+                <img
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1755275083/logo_c3e5dcb8_xzwfxs.svg"
+                  alt="New Partner Logo 2"
+                  className="max-h-20 w-auto object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
