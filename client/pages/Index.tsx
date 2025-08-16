@@ -578,7 +578,7 @@ export default function Index() {
                   Equipment:
                 </h2>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Special Offer For SageHealth Students
+                  Special Offer For SegaHealth Students
                 </h3>
                 <p className="text-lg text-gray-600 mb-6">
                   Get exclusive access to professional-grade XBody EMS equipment
