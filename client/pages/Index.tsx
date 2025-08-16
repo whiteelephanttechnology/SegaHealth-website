@@ -253,8 +253,8 @@ export default function Index() {
               </span>
             </h1>
             <p className="text-base text-gray-300 mb-8 max-w-lg leading-relaxed">
-              Unlock your potential become a certified WB-EMS trainer never
-              been easier through our comprehensive training program
+              Unlock your potential become a certified WB-EMS trainer never been
+              easier through our comprehensive training program
             </p>
             <div className="flex justify-start">
               <Button
@@ -922,10 +922,9 @@ export default function Index() {
                 What equipment will I need to start my WB-EMS business?
               </AccordionTrigger>
               <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
-                You will need an <strong>XBody WB-EMS machine</strong>, which
-                is used for training and rehabilitation. We offer exclusive
-                student discounts and financing options for purchasing the
-                equipment.
+                You will need an <strong>XBody WB-EMS machine</strong>, which is
+                used for training and rehabilitation. We offer exclusive student
+                discounts and financing options for purchasing the equipment.
               </AccordionContent>
             </AccordionItem>
 
@@ -1049,8 +1048,7 @@ export default function Index() {
                       className="border-b border-gray-700 pb-4"
                     >
                       <AccordionTrigger className="text-left font-medium text-white hover:text-orange-500 transition-colors text-lg py-4 hover:no-underline">
-                        How can I promote my WB-EMS business once I'm
-                        certified?
+                        How can I promote my WB-EMS business once I'm certified?
                       </AccordionTrigger>
                       <AccordionContent className="text-gray-300 mt-4 leading-relaxed">
                         Once certified, you'll have access to marketing
