@@ -1086,7 +1086,11 @@ export default function Index() {
 
           <div className="text-center mt-12">
             <button
-              onClick={() => setShowAllFAQs(!showAllFAQs)}
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                setShowAllFAQs(!showAllFAQs);
+              }}
               className="text-orange-500 hover:text-orange-400 transition-colors font-medium text-lg"
             >
               {showAllFAQs ? "Show fewer FAQs" : "See more FAQs"}
