@@ -108,22 +108,17 @@
     @apply bg-background text-foreground;
   }
 
-  @keyframes scroll {
-    0% {
+  @keyframes infiniteScroll {
+    from {
       transform: translateX(0);
     }
-    100% {
-      transform: translateX(calc(-100% / 2));
+    to {
+      transform: translateX(-50%);
     }
   }
 
   .animate-scroll {
-    animation: scroll 40s linear infinite;
+    animation: infiniteScroll 25s linear infinite;
     will-change: transform;
-    animation-play-state: running;
-  }
-
-  .animate-scroll:hover {
-    animation-play-state: paused;
   }
 }
