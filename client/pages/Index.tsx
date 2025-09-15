@@ -1209,8 +1209,8 @@ export default function Index() {
               <h4 className="font-semibold text-lg mb-6">Contact</h4>
               <ul className="space-y-3 text-gray-400">
                 <li>Email: info@segahealth.com</li>
-                <li>Phone: (555) 123-4567</li>
-                <li>Address: 123 Fitness Ave, Training City, TC 12345</li>
+                <li>Office #: 1-954-738-7220</li>
+                <li>Address: 600 Three Islands Blvd, Hallandale Beach FL 33009</li>
               </ul>
             </div>
           </div>
