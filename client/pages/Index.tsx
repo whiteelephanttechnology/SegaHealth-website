@@ -1228,7 +1228,9 @@ export default function Index() {
               <ul className="space-y-3 text-gray-400">
                 <li>Email: info@segahealth.com</li>
                 <li>Office #: 1-954-738-7220</li>
-                <li>Address: 600 Three Islands Blvd, Hallandale Beach FL 33009</li>
+                <li>
+                  Address: 600 Three Islands Blvd, Hallandale Beach FL 33009
+                </li>
               </ul>
             </div>
           </div>
