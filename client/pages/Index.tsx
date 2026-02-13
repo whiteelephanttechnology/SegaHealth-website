@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -82,11 +83,13 @@ export default function Index() {
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
-              <img
-                src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696037/WhatsApp_Image_2025-08-04_at_20.42.08_81fe8df0_1_tq2qgj.svg"
-                alt="SegaHealth Logo"
-                className="h-16 lg:h-12 w-auto"
-              />
+              <span className="inline-block animate-logo-spin">
+                <img
+                  src="https://res.cloudinary.com/dcd0zqorf/image/upload/v1754696037/WhatsApp_Image_2025-08-04_at_20.42.08_81fe8df0_1_tq2qgj.svg"
+                  alt="SegaHealth Logo"
+                  className="h-16 lg:h-12 w-auto"
+                />
+              </span>
             </div>
             <div className="hidden lg:flex space-x-6">
               <a
@@ -1197,28 +1200,28 @@ export default function Index() {
               <h4 className="font-semibold text-lg mb-6">Legal</h4>
               <ul className="space-y-3 text-gray-400">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/privacy-policy"
                     className="hover:text-orange-500 transition-colors"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/terms-of-service"
                     className="hover:text-orange-500 transition-colors"
                   >
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/cookie-policy"
                     className="hover:text-orange-500 transition-colors"
                   >
                     Cookie Policy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -1239,15 +1242,15 @@ export default function Index() {
             <div className="flex flex-col md:flex-row justify-between items-center text-gray-400">
               <p>&copy; 2025 SegaHealth LLC All rights reserved.</p>
               <div className="flex space-x-6 mt-4 md:mt-0">
-                <a href="#" className="hover:text-orange-500 transition-colors">
+                <Link to="/privacy-policy" className="hover:text-orange-500 transition-colors">
                   Privacy Policy
-                </a>
-                <a href="#" className="hover:text-orange-500 transition-colors">
+                </Link>
+                <Link to="/terms-of-service" className="hover:text-orange-500 transition-colors">
                   Terms of Service
-                </a>
-                <a href="#" className="hover:text-orange-500 transition-colors">
+                </Link>
+                <Link to="/cookie-policy" className="hover:text-orange-500 transition-colors">
                   Cookie Settings
-                </a>
+                </Link>
               </div>
             </div>
           </div>
