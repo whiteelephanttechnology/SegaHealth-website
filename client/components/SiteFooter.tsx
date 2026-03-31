@@ -89,17 +89,17 @@ export default function SiteFooter() {
             <h4 className="font-semibold text-lg mb-6">Legal</h4>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <a href="#" className="hover:text-orange-500 transition-colors">
+                <a href="/privacy-policy" className="hover:text-orange-500 transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500 transition-colors">
+                <a href="/terms-of-service" className="hover:text-orange-500 transition-colors">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500 transition-colors">
+                <a href="/cookies-policy" className="hover:text-orange-500 transition-colors">
                   Cookie Policy
                 </a>
               </li>
@@ -120,22 +120,22 @@ export default function SiteFooter() {
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-400">
             <p>&copy; 2025 SegaHealth LLC All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link
-                to="/privacy-policy"
-                className="hover:text-orange-500 transition-colors"
-              >
+              <Link href="/privacy-policy" className="hover:text-orange-500 transition-colors">
                 Privacy Policy
               </Link>
-              <a href="#" className="hover:text-orange-500 transition-colors">
+
+              <Link href="/terms-of-service" className="hover:text-orange-500 transition-colors">
                 Terms of Service
-              </a>
-              <a href="#" className="hover:text-orange-500 transition-colors">
+              </Link>
+
+              <Link href="/cookies-policy" className="hover:text-orange-500 transition-colors">
                 Cookie Settings
-              </a>
-            </div>
+              </Link>
+            </a>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+    </footer >
   );
 }
