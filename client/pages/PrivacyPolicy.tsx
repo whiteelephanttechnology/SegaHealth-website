@@ -93,7 +93,9 @@ export default function PrivacyPolicy() {
               personal information related to SegaHealth Academy's WB-EMS
               certification services.
             </p>
-            <p className="text-sm text-gray-400 mt-6">Effective date: August 16, 2025</p>
+            <p className="text-sm text-gray-400 mt-6">
+              Effective date: August 16, 2025
+            </p>
           </div>
         </section>
 
