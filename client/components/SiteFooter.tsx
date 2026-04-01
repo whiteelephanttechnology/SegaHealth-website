@@ -49,9 +49,21 @@ export default function SiteFooter() {
           <div>
             <h4 className="font-semibold text-lg mb-6">Legal</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-              <li><a href="/terms-of-service">Terms of Service</a></li>
-              <li><a href="/cookies-policy">Cookie Policy</a></li>
+              <li>
+                <Link to="/privacy-policy" className="hover:text-orange-500 transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/terms-of-service" className="hover:text-orange-500 transition-colors">
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link to="/cookie-policy" className="hover:text-orange-500 transition-colors">
+                  Cookie Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -77,7 +89,7 @@ export default function SiteFooter() {
                 Terms of Service
               </Link>
 
-              <Link to="/cookies-policy" className="hover:text-orange-500 transition-colors">
+              <Link to="/cookie-policy" className="hover:text-orange-500 transition-colors">
                 Cookie Settings
               </Link>
             </div>
