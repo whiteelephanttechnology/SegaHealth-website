@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
+import { Link } from "react-router-dom";
 import {
   Accordion,
   AccordionContent,
@@ -117,14 +118,14 @@ export default function Index() {
             </p>
             <div className="flex justify-start">
               <Button
-                onClick={openCalendly}
+                asChild
                 className="bg-white hover:bg-gray-50 text-black px-8 py-3 rounded-full text-lg relative overflow-visible"
                 style={{
                   boxShadow:
                     "15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)",
                 }}
               >
-                Get Started Today
+                <Link to="/contact">Get Started Today</Link>
               </Button>
             </div>
           </div>
@@ -159,14 +160,14 @@ export default function Index() {
 
           <div className="text-center">
             <Button
-              onClick={openCalendly}
+              asChild
               className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 relative overflow-visible"
               style={{
                 boxShadow:
                   "15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)",
               }}
             >
-              Get Certified Today
+              <Link to="/contact">Get Certified Today</Link>
             </Button>
           </div>
         </div>
@@ -355,14 +356,14 @@ export default function Index() {
               </div>
 
               <Button
-                onClick={openCalendly}
+                asChild
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg rounded-full mt-8 shadow-lg relative overflow-visible"
                 style={{
                   boxShadow:
                     "15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)",
                 }}
               >
-                Start Your Certification Today
+                <Link to="/contact">Start Your Certification Today</Link>
               </Button>
             </div>
 
@@ -412,14 +413,14 @@ export default function Index() {
                 confidence to excel in your WB-EMS career.
               </p>
               <Button
-                onClick={openCalendly}
+                asChild
                 className="bg-white hover:bg-gray-50 text-black px-8 py-3 rounded-full relative overflow-visible"
                 style={{
                   boxShadow:
                     "15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)",
                 }}
               >
-                Learn More
+                <Link to="/contact">Learn More</Link>
               </Button>
             </div>
           </div>
@@ -456,10 +457,10 @@ export default function Index() {
                   </Badge>
                 </div>
                 <Button
-                  onClick={openCalendly}
+                  asChild
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full"
                 >
-                  Learn More About Equipment
+                  <Link to="/contact">Learn More About Equipment</Link>
                 </Button>
               </div>
               <div className="relative max-w-2xl mx-auto">
@@ -649,10 +650,10 @@ export default function Index() {
 
           <div className="text-center">
             <Button
-              onClick={openCalendly}
+              asChild
               className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg rounded-full mb-4 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              Book a Free Demo
+              <Link to="/contact">Book a Free Demo</Link>
             </Button>
             <p className="text-gray-600 text-lg">
               See it in action. Ask questions. Find the right fit.
@@ -707,14 +708,14 @@ export default function Index() {
                 here to help you move forward with strength and resilience.
               </p>
               <Button
-                onClick={openCalendly}
+                asChild
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full relative overflow-visible"
                 style={{
                   boxShadow:
                     "15px 0 30px rgba(249, 115, 22, 0.6), 30px 0 60px rgba(249, 115, 22, 0.4), 45px 0 90px rgba(249, 115, 22, 0.2)",
                 }}
               >
-                Get Started Today
+                <Link to="/contact">Get Started Today</Link>
               </Button>
             </div>
 
