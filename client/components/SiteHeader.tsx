@@ -4,6 +4,7 @@ import { useState } from "react";
 
 interface SiteHeaderProps {
   homePage?: boolean;
+  transparent?: boolean;
   onPrimaryAction?: () => void;
 }
 
@@ -12,6 +13,7 @@ const logoSrc =
 
 export default function SiteHeader({
   homePage = false,
+  transparent = false,
   onPrimaryAction,
 }: SiteHeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,54 +23,60 @@ export default function SiteHeader({
     { label: "About", href: homePage ? "#about" : "/#about" },
     { label: "Courses", href: homePage ? "#courses" : "/#courses" },
     { label: "Equipment", href: homePage ? "#equipment" : "/#equipment" },
-    { label: "Contact", href: homePage ? "#contact" : "/#contact" },
+    { label: "Contact", href: homePage ? "#contact" : "/contact" },
   ];
 
   const primaryButton = onPrimaryAction ? (
     <Button
       onClick={onPrimaryAction}
-      className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium ml-6"
+      className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium"
     >
       Get Started
     </Button>
   ) : (
     <Button
       asChild
-      className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium ml-6"
+      className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium"
     >
-      <a href="/#contact">Get Started</a>
+      <a href={homePage ? "#contact" : "/contact"}>Get Started</a>
     </Button>
   );
 
   return (
     <>
       <nav
-        className="fixed top-0 left-0 right-0 lg:top-4 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:max-w-4xl z-50 bg-black/40 lg:bg-black/80 backdrop-blur-md text-white px-6 py-3 lg:rounded-full border-b lg:border border-white/10 shadow-lg"
+        className={`fixed top-0 left-0 right-0 lg:top-4 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:max-w-4xl z-50 text-white px-6 py-3 lg:rounded-full ${
+          transparent
+            ? "bg-transparent backdrop-blur-0 border-b border-transparent lg:border-transparent shadow-none"
+            : "bg-black/40 lg:bg-black/80 backdrop-blur-md border-b lg:border border-white/10 shadow-lg"
+        }`}
         style={{
-          boxShadow:
-            "0 0 20px rgba(249, 115, 22, 0.3), 0 0 40px rgba(249, 115, 22, 0.2), 0 0 60px rgba(249, 115, 22, 0.1), 0 4px 20px rgba(0, 0, 0, 0.3)",
+          boxShadow: transparent
+            ? "none"
+            : "0 0 20px rgba(249, 115, 22, 0.3), 0 0 40px rgba(249, 115, 22, 0.2), 0 0 60px rgba(249, 115, 22, 0.1), 0 4px 20px rgba(0, 0, 0, 0.3)",
         }}
       >
-        <div className="flex items-center justify-between w-full">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
+        <div className="flex items-center justify-between w-full lg:min-h-[56px] lg:grid lg:grid-cols-[auto_1fr_auto] lg:gap-6">
+          <div className="flex items-center">
+            <a href="/" className="flex items-center space-x-2">
               <img
                 src={logoSrc}
                 alt="SegaHealth Logo"
-                className="h-16 lg:h-12 w-auto"
+                className="h-14 lg:h-10 w-auto"
               />
-            </div>
-            <div className="hidden lg:flex space-x-6">
-              {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="hover:text-orange-500 transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
+            </a>
+          </div>
+
+          <div className="hidden lg:flex items-center justify-center gap-8">
+            {navLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="hover:text-orange-500 transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
           </div>
 
           <div className="lg:hidden">
@@ -91,7 +99,7 @@ export default function SiteHeader({
             </button>
           </div>
 
-          {primaryButton}
+          <div className="hidden lg:block lg:justify-self-end">{primaryButton}</div>
         </div>
       </nav>
 
@@ -134,7 +142,10 @@ export default function SiteHeader({
                   asChild
                   className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium mt-4"
                 >
-                  <a href="/#contact" onClick={() => setIsMobileMenuOpen(false)}>
+                  <a
+                    href={homePage ? "#contact" : "/contact"}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
                     Get Started
                   </a>
                 </Button>
