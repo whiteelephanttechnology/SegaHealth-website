@@ -23,22 +23,15 @@ export default function SiteHeader({
     { label: "About", href: homePage ? "#about" : "/#about" },
     { label: "Courses", href: homePage ? "#courses" : "/#courses" },
     { label: "Equipment", href: homePage ? "#equipment" : "/#equipment" },
-    { label: "Contact", href: homePage ? "#contact" : "/contact" },
+    { label: "Contact", href: "/contact" },
   ];
 
-  const primaryButton = onPrimaryAction ? (
-    <Button
-      onClick={onPrimaryAction}
-      className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium"
-    >
-      Get Started
-    </Button>
-  ) : (
+  const primaryButton = (
     <Button
       asChild
       className="hidden lg:block bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium"
     >
-      <a href={homePage ? "#contact" : "/contact"}>Get Started</a>
+      <a href="/contact">Get Started</a>
     </Button>
   );
 
@@ -69,13 +62,24 @@ export default function SiteHeader({
 
           <div className="hidden lg:flex items-center justify-center gap-8">
             {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="hover:text-orange-500 transition-colors"
-              >
-                {link.label}
-              </a>
+              link.label === "Contact" && homePage && onPrimaryAction ? (
+                <button
+                  key={link.label}
+                  type="button"
+                  onClick={onPrimaryAction}
+                  className="hover:text-orange-500 transition-colors"
+                >
+                  {link.label}
+                </button>
+              ) : (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="hover:text-orange-500 transition-colors"
+                >
+                  {link.label}
+                </a>
+              )
             ))}
           </div>
 
@@ -118,38 +122,37 @@ export default function SiteHeader({
           >
             <div className="flex flex-col space-y-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="hover:text-orange-500 transition-colors py-2"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {link.label}
-                </a>
-              ))}
-              {onPrimaryAction ? (
-                <Button
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium mt-4"
-                  onClick={() => {
-                    setIsMobileMenuOpen(false);
-                    onPrimaryAction();
-                  }}
-                >
-                  Get Started
-                </Button>
-              ) : (
-                <Button
-                  asChild
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium mt-4"
-                >
+                link.label === "Contact" && homePage && onPrimaryAction ? (
+                  <button
+                    key={link.label}
+                    type="button"
+                    className="hover:text-orange-500 transition-colors py-2 text-left"
+                    onClick={() => {
+                      setIsMobileMenuOpen(false);
+                      onPrimaryAction();
+                    }}
+                  >
+                    {link.label}
+                  </button>
+                ) : (
                   <a
-                    href={homePage ? "#contact" : "/contact"}
+                    key={link.label}
+                    href={link.href}
+                    className="hover:text-orange-500 transition-colors py-2"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Get Started
+                    {link.label}
                   </a>
-                </Button>
-              )}
+                )
+              ))}
+              <Button
+                asChild
+                className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium mt-4"
+              >
+                <a href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+                  Get Started
+                </a>
+              </Button>
             </div>
           </motion.div>
         )}
