@@ -36,11 +36,11 @@ export default function Contact() {
           {/* CTA Button */}
           <div className="text-center">
             <a
-              href="tel:+1-954-738-7220"
+              href="tel:+17869838885"
               className="block w-full md:w-auto md:inline-block"
             >
               <Button className="w-full md:w-auto px-12 py-5 bg-orange-500 hover:bg-orange-600 text-white text-lg font-semibold rounded-full shadow-[0_0_35px_rgba(249,115,22,0.35)]">
-                Call Now: (954) 738-7220
+                Call Now: +1 786 983 8885
               </Button>
             </a>
           </div>
@@ -133,9 +133,9 @@ export default function Contact() {
             Call Sage today. We'll help you understand the next best step toward
             becoming a SegaHealth certified trainer.
           </p>
-          <a href="tel:+1-954-738-7220">
+          <a href="tel:+17869838885">
             <Button className="px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold text-lg rounded-full shadow-[0_0_35px_rgba(249,115,22,0.35)]">
-              Call Now: (954) 738-7220
+              Call Now: +1 786 983 8885
             </Button>
           </a>
         </div>
