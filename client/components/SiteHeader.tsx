@@ -62,24 +62,13 @@ export default function SiteHeader({
 
           <div className="hidden lg:flex items-center justify-center gap-8">
             {navLinks.map((link) => (
-              link.label === "Contact" && homePage && onPrimaryAction ? (
-                <button
-                  key={link.label}
-                  type="button"
-                  onClick={onPrimaryAction}
-                  className="hover:text-orange-500 transition-colors"
-                >
-                  {link.label}
-                </button>
-              ) : (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="hover:text-orange-500 transition-colors"
-                >
-                  {link.label}
-                </a>
-              )
+              <a
+                key={link.label}
+                href={link.href}
+                className="hover:text-orange-500 transition-colors"
+              >
+                {link.label}
+              </a>
             ))}
           </div>
 
@@ -122,28 +111,14 @@ export default function SiteHeader({
           >
             <div className="flex flex-col space-y-4">
               {navLinks.map((link) => (
-                link.label === "Contact" && homePage && onPrimaryAction ? (
-                  <button
-                    key={link.label}
-                    type="button"
-                    className="hover:text-orange-500 transition-colors py-2 text-left"
-                    onClick={() => {
-                      setIsMobileMenuOpen(false);
-                      onPrimaryAction();
-                    }}
-                  >
-                    {link.label}
-                  </button>
-                ) : (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    className="hover:text-orange-500 transition-colors py-2"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {link.label}
-                  </a>
-                )
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="hover:text-orange-500 transition-colors py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.label}
+                </a>
               ))}
               <Button
                 asChild
